@@ -1,0 +1,880 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="mainPanel" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="calculatorsTPane" pref="674" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="calculatorsTPane" alignment="0" pref="455" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="calculatorsTPane">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="calculatorsTPane.font"/>
+            <Property name="name" type="java.lang.String" value="calculatorsTPane" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="cewkapPanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="cewkapPanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="cewka powietrzna">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="cewkapPanel.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel8" pref="649" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" pref="448" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel7" pref="649" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel9" alignment="1" pref="653" max="32767" attributes="0"/>
+                                      <Component id="jLabel12" alignment="0" pref="653" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jPanelCewkaWe" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jPanelCewkaWy" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jPanelCewkaParam" min="-2" pref="212" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jPanelCewkaWe" min="0" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaWy" alignment="0" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaParam" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,10,77,111,110,111,115,112,97,99,101,100,120"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel4.font"/>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel7.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="jLabel7.foreground"/>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel7.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel7" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel8.font"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel8.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel8" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel9.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="jLabel9.foreground"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel9.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel9" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanelCewkaWe">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="WEJ&#x15a;CIE">
+                          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                            <EtchetBorder/>
+                          </Border>
+                          <Property name="titleX" resourceKey="jPanelCewkaWe.border.title"/>
+                          <Property name="font" resourceKey="jPanelCewkaWe.border.titleFont"/>
+                          <Property name="color" resourceKey="jPanelCewkaWe.border.titleColor"/>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="jPanelCewkaWe.foreground"/>
+                    <Property name="font" type="java.awt.Font" resourceKey="jPanelCewkaWe.font"/>
+                    <Property name="name" type="java.lang.String" value="jPanelCewkaWe" noResource="true"/>
+                  </Properties>
+                  <AccessibilityProperties>
+                    <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jPanelCewkaWe.AccessibleContext.accessibleName"/>
+                  </AccessibilityProperties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator1" alignment="0" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Component id="jLabelCewkaDDivX" alignment="0" pref="208" max="32767" attributes="1"/>
+                                  <Component id="jLabelCewkaMaxSr" alignment="0" pref="208" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="0" attributes="1">
+                                      <Component id="jLabelCewkaRs" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jTextCewkaRs" min="-2" pref="77" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabelCewkaRsJdn" pref="89" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabelCewkaX" alignment="0" pref="30" max="32767" attributes="1"/>
+                                          <Component id="jLabelCewkaD" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="jLabelCewkaN" alignment="0" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jSpinnerCewkaN" alignment="1" max="32767" attributes="1"/>
+                                          <Component id="jSpinnerCewkaD" max="32767" attributes="1"/>
+                                          <Component id="jSpinnerCewkaX" alignment="0" pref="114" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabelCewkaNJdn" max="32767" attributes="1"/>
+                                          <Component id="jLabelCewkaDJdn" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="jLabelCewkaXJdn" alignment="0" pref="38" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelCewkaX" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinnerCewkaX" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabelCewkaXJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelCewkaD" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinnerCewkaD" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabelCewkaDJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelCewkaN" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinnerCewkaN" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabelCewkaNJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaMaxSr" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaDDivX" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelCewkaRs" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextCewkaRs" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelCewkaRsJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="14" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerCewkaX">
+                      <Properties>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerCewkaX)" type="code"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jSpinnerCewkaX" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerCewkaXStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerCewkaX.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        cewkaXEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaX.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F1&quot;), &quot;F1 pressed&quot;);&#xd;&#xa;jSpinnerCewkaX.getActionMap().put(&quot;F1 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decX(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaX.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F1&quot;), &quot;shift F1 pressed&quot;);&#xd;&#xa;jSpinnerCewkaX.getActionMap().put(&quot;shift F1 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decX(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaX.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F2&quot;), &quot;F2 pressed&quot;);&#xd;&#xa;jSpinnerCewkaX.getActionMap().put(&quot;F2 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incX(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaX.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F2&quot;), &quot;shift F2 pressed&quot;);&#xd;&#xa;jSpinnerCewkaX.getActionMap().put(&quot;shift F2 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incX(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerCewkaD">
+                      <Properties>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerCewkaD)" type="code"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jSpinnerCewkaD" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerCewkaDStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerCewkaD.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        cewkaDEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaD.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F3&quot;), &quot;F3 pressed&quot;);&#xd;&#xa;jSpinnerCewkaD.getActionMap().put(&quot;F3 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decD(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaD.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F3&quot;), &quot;shift F3 pressed&quot;);&#xd;&#xa;jSpinnerCewkaD.getActionMap().put(&quot;shift F3 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decD(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaD.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F4&quot;), &quot;F4 pressed&quot;);&#xd;&#xa;jSpinnerCewkaD.getActionMap().put(&quot;F4 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incD(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaD.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F4&quot;), &quot;shift F4 pressed&quot;);&#xd;&#xa;jSpinnerCewkaD.getActionMap().put(&quot;shift F4 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incD(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerCewkaN">
+                      <Properties>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerCewkaN)" type="code"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jSpinnerCewkaN" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerCewkaNStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerCewkaN.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        cewkaNEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaN.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F5&quot;), &quot;F5 pressed&quot;);&#xd;&#xa;jSpinnerCewkaN.getActionMap().put(&quot;F5 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decN(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaN.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F5&quot;), &quot;shift F5 pressed&quot;);&#xd;&#xa;jSpinnerCewkaN.getActionMap().put(&quot;shift F5 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decN(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaN.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F6&quot;), &quot;F6 pressed&quot;);&#xd;&#xa;jSpinnerCewkaN.getActionMap().put(&quot;F6 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incN(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerCewkaN.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F6&quot;), &quot;shift F6 pressed&quot;);&#xd;&#xa;jSpinnerCewkaN.getActionMap().put(&quot;shift F6 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incN(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaX">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaX.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaX.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaX" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaD">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaD.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaD.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaD" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaN">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaN.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaN.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaN" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSeparator" name="jSeparator1">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaMaxSr">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaMaxSr.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaMaxSr.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaMaxSr" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaDDivX">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaDDivX.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaDDivX.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaDDivX" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaRs">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaRs.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaRs.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaRs" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaXJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaXJdn.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaXJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaXJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaDJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaDJdn.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaDJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaDJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaNJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaNJdn.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaNJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaNJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextCewkaRs">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jTextCewkaRs.text"/>
+                        <Property name="name" type="java.lang.String" value="jTextCewkaRs" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextCewkaRsActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F9&quot;), &quot;F9 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;F9 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decRs(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F9&quot;), &quot;shift F9 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;shift F9 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decRs(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F10&quot;), &quot;F10 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;F10 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incRs(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F10&quot;), &quot;shift F10 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;shift F10 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incRs(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaRsJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaRsJdn.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaRsJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaRsJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanelCewkaWy">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="WYJ&#x15a;CIE">
+                          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                            <EtchetBorder/>
+                          </Border>
+                          <Property name="titleX" resourceKey="jPanelCewkaWy.border.title"/>
+                          <Property name="font" resourceKey="jPanelCewkaWy.border.titleFont"/>
+                          <Property name="color" resourceKey="jPanelCewkaWy.border.titleColor"/>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" resourceKey="jPanelCewkaWy.font"/>
+                    <Property name="name" type="java.lang.String" value="jPanelCewkaWy" noResource="true"/>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelCewkaL" alignment="0" pref="167" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaLMi" alignment="0" pref="167" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaQl" alignment="0" pref="167" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaLMi" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaQl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="141" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaL">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaL.font"/>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelCewkaL.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaL.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaL" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaLMi">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaLMi.font"/>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelCewkaLMi.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaLMi.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaLMi" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaQl">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaQl.font"/>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelCewkaQl.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaQl.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaQl" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanelCewkaParam">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="PARAMETRY">
+                          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                            <EtchetBorder/>
+                          </Border>
+                          <Property name="titleX" resourceKey="jPanelCewkaParam.border.title"/>
+                          <Property name="font" resourceKey="jPanelCewkaParam.border.titleFont"/>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" resourceKey="jPanelCewkaParam.font"/>
+                    <Property name="name" type="java.lang.String" value="jPanelCewkaParam" noResource="true"/>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelCewkaWzor" alignment="0" pref="185" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabelCewkaUw" max="32767" attributes="1"/>
+                                          <Component id="jLabelCewkaFx" alignment="0" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextCewkaMi" min="-2" pref="92" max="-2" attributes="1"/>
+                                          <Component id="jSpinnerCewkaFx" pref="92" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabelCewkaFxJdn" min="-2" pref="50" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jSeparator2" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelCewkaUw" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextCewkaMi" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabelCewkaFxJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelCewkaFx" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jSpinnerCewkaFx" min="-2" pref="28" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaWzor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaUw">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaUw.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaUw.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaUw" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaFx">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaFx.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaFx.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaFx" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaWzor">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaWzor.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaWzor.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaWzor" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerCewkaFx">
+                      <Properties>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new pep.StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerCewkaFx)" type="code"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jSpinnerCewkaFx" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerCewkaFxStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerCewkaFx.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        cewkaFxEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelCewkaFxJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabelCewkaFxJdn.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaFxJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelCewkaFxJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextCewkaMi">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jTextCewkaMi.text"/>
+                        <Property name="name" type="java.lang.String" value="jTextCewkaMi" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextCewkaMiActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JSeparator" name="jSeparator2">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator2" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel12">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel12.font"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel12.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel12" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="lpnPanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="lpnPanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="linia paskowa niesymetryczna">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="lpnPanel.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="227" max="-2" attributes="0"/>
+                                  <EmptySpace pref="218" max="32767" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel10" pref="649" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="378" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="jLabel10.foreground"/>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel10.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel10" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="rezPanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="rezPanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="obw&#xf3;d rezonansowy">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="rezPanel.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" pref="373" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel11" pref="649" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="378" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel3.font"/>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel11">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="jLabel11.foreground"/>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel11.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel11" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+            <Property name="name" type="java.lang.String" value="fileMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemOtworz">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+O"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemOtworz.text"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemOtworz" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemZapisz">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="pep.PEPView" id="saveDefaultParamFile" methodName="saveDefaultParamFile"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemZapisz.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="jMenuItemZapisz.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemZapisz" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemZapiszJako">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemZapiszJako.text"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemZapiszJako" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="exitMenuItem.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="exitMenuItem.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="exitMenuItem" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitMenuItemActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+            <Property name="name" type="java.lang.String" value="helpMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="pep.PEPView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="aboutMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="aboutMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-36,0,0,2,-84"/>
+  </AuxValues>
+</Form>
