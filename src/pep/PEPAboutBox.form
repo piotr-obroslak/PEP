@@ -42,8 +42,8 @@
                               <Component id="appHomepageLabel" min="-2" max="-2" attributes="1"/>
                               <EmptySpace min="-2" pref="230" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="appVendorLabel" pref="317" max="32767" attributes="1"/>
-                          <Component id="appVersionLabel" alignment="0" pref="317" max="32767" attributes="0"/>
+                          <Component id="appVendorLabel" pref="321" max="32767" attributes="1"/>
+                          <Component id="appVersionLabel" alignment="0" pref="321" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Component id="appTitleLabel" alignment="0" pref="435" max="32767" attributes="1"/>
@@ -78,7 +78,7 @@
               </Group>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
-          <Component id="imageLabel" alignment="0" pref="230" max="32767" attributes="1"/>
+          <Component id="imageLabel" alignment="0" pref="196" max="32767" attributes="1"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -93,8 +93,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="appTitleLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" noResource="true" editor="com.sun.beans.editors.FontEditor">
-          <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,-112,0,0,0,0,0,18,0,0,0,1,112,116,0,10,77,111,110,111,115,112,97,99,101,100,120"/>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="appTitleLabel" property="font" relativeSize="true" size="7"/>
+          </FontInfo>
         </Property>
         <Property name="text" type="java.lang.String" resourceKey="Application.title"/>
         <Property name="name" type="java.lang.String" value="appTitleLabel" noResource="true"/>
@@ -106,8 +108,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="versionLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" noResource="true" editor="com.sun.beans.editors.FontEditor">
-          <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,64,0,0,0,0,0,12,0,0,0,1,112,116,0,10,77,111,110,111,115,112,97,99,101,100,120"/>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="versionLabel" property="font" relativeSize="true" size="1"/>
+          </FontInfo>
         </Property>
         <Property name="text" type="java.lang.String" resourceKey="versionLabel.text"/>
         <Property name="name" type="java.lang.String" value="versionLabel" noResource="true"/>
@@ -119,7 +123,11 @@
     </Component>
     <Component class="javax.swing.JLabel" name="appVersionLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" resourceKey="appVersionLabel.font"/>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="appVersionLabel" property="font" relativeSize="true" size="1"/>
+          </FontInfo>
+        </Property>
         <Property name="text" type="java.lang.String" resourceKey="Application.version"/>
         <Property name="name" type="java.lang.String" value="appVersionLabel" noResource="true"/>
       </Properties>
@@ -130,8 +138,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="vendorLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" noResource="true" editor="com.sun.beans.editors.FontEditor">
-          <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,64,0,0,0,0,0,12,0,0,0,1,112,116,0,10,77,111,110,111,115,112,97,99,101,100,120"/>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="vendorLabel" property="font" relativeSize="true" size="1"/>
+          </FontInfo>
         </Property>
         <Property name="text" type="java.lang.String" resourceKey="vendorLabel.text"/>
         <Property name="name" type="java.lang.String" value="vendorLabel" noResource="true"/>
@@ -143,7 +153,11 @@
     </Component>
     <Component class="javax.swing.JLabel" name="appVendorLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" resourceKey="appVendorLabel.font"/>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="appVendorLabel" property="font" relativeSize="true" size="1"/>
+          </FontInfo>
+        </Property>
         <Property name="text" type="java.lang.String" resourceKey="Application.vendor"/>
         <Property name="name" type="java.lang.String" value="appVendorLabel" noResource="true"/>
       </Properties>
@@ -164,7 +178,11 @@
     </Component>
     <Component class="javax.swing.JLabel" name="appDescLabel">
       <Properties>
-        <Property name="font" type="java.awt.Font" resourceKey="appDescLabel.font"/>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="appDescLabel" property="font" relativeSize="true" size="1"/>
+          </FontInfo>
+        </Property>
         <Property name="text" type="java.lang.String" resourceKey="appDescLabel.text"/>
         <Property name="name" type="java.lang.String" value="appDescLabel" noResource="true"/>
       </Properties>

@@ -48,30 +48,30 @@ public class PEPAboutBox extends javax.swing.JDialog {
         closeButton.setAction(actionMap.get("closeAboutBox")); // NOI18N
         closeButton.setName("closeButton"); // NOI18N
 
-        appTitleLabel.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        appTitleLabel.setFont(appTitleLabel.getFont().deriveFont(appTitleLabel.getFont().getStyle() | java.awt.Font.BOLD, appTitleLabel.getFont().getSize()+7));
         appTitleLabel.setText(resourceMap.getString("Application.title")); // NOI18N
         appTitleLabel.setName("appTitleLabel"); // NOI18N
 
-        versionLabel.setFont(new java.awt.Font("Monospaced", 1, 12)); // NOI18N
+        versionLabel.setFont(versionLabel.getFont().deriveFont(versionLabel.getFont().getStyle() | java.awt.Font.BOLD, versionLabel.getFont().getSize()+1));
         versionLabel.setText(resourceMap.getString("versionLabel.text")); // NOI18N
         versionLabel.setName("versionLabel"); // NOI18N
 
-        appVersionLabel.setFont(resourceMap.getFont("appVersionLabel.font")); // NOI18N
+        appVersionLabel.setFont(appVersionLabel.getFont().deriveFont(appVersionLabel.getFont().getSize()+1f));
         appVersionLabel.setText(resourceMap.getString("Application.version")); // NOI18N
         appVersionLabel.setName("appVersionLabel"); // NOI18N
 
-        vendorLabel.setFont(new java.awt.Font("Monospaced", 1, 12)); // NOI18N
+        vendorLabel.setFont(vendorLabel.getFont().deriveFont(vendorLabel.getFont().getStyle() | java.awt.Font.BOLD, vendorLabel.getFont().getSize()+1));
         vendorLabel.setText(resourceMap.getString("vendorLabel.text")); // NOI18N
         vendorLabel.setName("vendorLabel"); // NOI18N
 
-        appVendorLabel.setFont(resourceMap.getFont("appVendorLabel.font")); // NOI18N
+        appVendorLabel.setFont(appVendorLabel.getFont().deriveFont(appVendorLabel.getFont().getSize()+1f));
         appVendorLabel.setText(resourceMap.getString("Application.vendor")); // NOI18N
         appVendorLabel.setName("appVendorLabel"); // NOI18N
 
         appHomepageLabel.setText(resourceMap.getString("Application.homepage")); // NOI18N
         appHomepageLabel.setName("appHomepageLabel"); // NOI18N
 
-        appDescLabel.setFont(resourceMap.getFont("appDescLabel.font")); // NOI18N
+        appDescLabel.setFont(appDescLabel.getFont().deriveFont(appDescLabel.getFont().getSize()+1f));
         appDescLabel.setText(resourceMap.getString("appDescLabel.text")); // NOI18N
         appDescLabel.setName("appDescLabel"); // NOI18N
 
@@ -95,8 +95,8 @@ public class PEPAboutBox extends javax.swing.JDialog {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(appHomepageLabel)
                                 .addGap(230, 230, 230))
-                            .addComponent(appVendorLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 317, Short.MAX_VALUE)
-                            .addComponent(appVersionLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 317, Short.MAX_VALUE)))
+                            .addComponent(appVendorLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 321, Short.MAX_VALUE)
+                            .addComponent(appVersionLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 321, Short.MAX_VALUE)))
                     .addComponent(appTitleLabel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 435, Short.MAX_VALUE)
                     .addComponent(closeButton)
                     .addComponent(appDescLabel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 435, Short.MAX_VALUE))
@@ -122,7 +122,7 @@ public class PEPAboutBox extends javax.swing.JDialog {
                     .addComponent(closeButton)
                     .addComponent(appHomepageLabel))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addComponent(imageLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE)
+            .addComponent(imageLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)
         );
 
         pack();
