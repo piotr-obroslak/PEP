@@ -1,0 +1,3 @@
+- obsluga klawisza F10
+
+- dodac sensowne nazwy do etykiet na zakladkach "obwody rezonansowe" oraz "linia paskowa niesymetryczna"
