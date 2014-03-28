@@ -51,35 +51,24 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel8" pref="653" max="32767" attributes="0"/>
-                              </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel1" min="-2" pref="448" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                                   <Component id="jLabel4" min="-2" pref="69" max="-2" attributes="0"/>
                               </Group>
+                              <Component id="jLabel8" alignment="1" pref="643" max="32767" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" pref="643" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jPanelCewkaWe" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel7" pref="653" max="32767" attributes="0"/>
+                                  <Component id="jPanelCewkaWy" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jPanelCewkaParam" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel9" alignment="1" pref="657" max="32767" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jPanelCewkaWe" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jPanelCewkaWy" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jPanelCewkaParam" min="-2" pref="212" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="jLabel12" alignment="0" pref="657" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
+                              <Component id="jLabel12" alignment="0" pref="643" max="32767" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" pref="643" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -97,15 +86,15 @@
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="12" max="32767" attributes="0"/>
+                          <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jPanelCewkaWe" min="0" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaWe" alignment="0" pref="230" max="32767" attributes="1"/>
                               <Component id="jPanelCewkaWy" alignment="0" max="32767" attributes="1"/>
-                              <Component id="jPanelCewkaParam" alignment="0" min="-2" pref="239" max="-2" attributes="1"/>
+                              <Component id="jPanelCewkaParam" alignment="0" pref="230" max="32767" attributes="1"/>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -204,39 +193,38 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jSeparator1" alignment="0" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <Component id="jLabelCewkaDDivX" alignment="0" pref="212" max="32767" attributes="1"/>
-                                  <Component id="jLabelCewkaMaxSr" alignment="0" pref="212" max="32767" attributes="1"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jSeparator1" alignment="0" max="32767" attributes="1"/>
                                   <Group type="102" alignment="0" attributes="1">
                                       <Component id="jLabelCewkaRs" min="-2" max="-2" attributes="1"/>
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                       <Component id="jTextCewkaRs" min="-2" pref="77" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jLabelCewkaRsJdn" pref="95" max="32767" attributes="0"/>
+                                      <Component id="jLabelCewkaRsJdn" max="32767" attributes="0"/>
                                   </Group>
+                                  <Component id="jLabelCewkaDDivX" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jLabelCewkaMaxSr" alignment="0" max="32767" attributes="1"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jLabelCewkaX" alignment="0" pref="30" max="32767" attributes="1"/>
                                           <Component id="jLabelCewkaD" alignment="0" max="32767" attributes="1"/>
                                           <Component id="jLabelCewkaN" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="jLabelCewkaX" alignment="0" max="32767" attributes="1"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jSpinnerCewkaX" alignment="0" min="-2" pref="114" max="-2" attributes="1"/>
                                           <Component id="jSpinnerCewkaN" alignment="1" min="-2" pref="114" max="-2" attributes="1"/>
                                           <Component id="jSpinnerCewkaD" alignment="0" min="-2" pref="114" max="-2" attributes="1"/>
+                                          <Component id="jSpinnerCewkaX" alignment="1" min="-2" pref="114" max="-2" attributes="1"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jLabelCewkaNJdn" max="32767" attributes="1"/>
-                                          <Component id="jLabelCewkaDJdn" alignment="0" max="32767" attributes="1"/>
-                                          <Component id="jLabelCewkaXJdn" alignment="0" pref="38" max="32767" attributes="1"/>
+                                          <Component id="jLabelCewkaNJdn" min="-2" pref="41" max="-2" attributes="1"/>
+                                          <Component id="jLabelCewkaDJdn" alignment="0" min="-2" pref="41" max="-2" attributes="1"/>
+                                          <Component id="jLabelCewkaXJdn" alignment="0" pref="41" max="32767" attributes="1"/>
                                       </Group>
-                                      <EmptySpace pref="22" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace pref="13" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -261,9 +249,9 @@
                                   <Component id="jSpinnerCewkaN" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jLabelCewkaNJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                               <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="jLabelCewkaMaxSr" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelCewkaDDivX" min="-2" max="-2" attributes="0"/>
@@ -273,7 +261,7 @@
                                   <Component id="jTextCewkaRs" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabelCewkaRsJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="20" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -488,9 +476,9 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabelCewkaL" alignment="0" pref="167" max="32767" attributes="0"/>
-                                  <Component id="jLabelCewkaLMi" alignment="0" pref="167" max="32767" attributes="0"/>
-                                  <Component id="jLabelCewkaQl" alignment="0" pref="167" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaL" alignment="0" pref="161" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaLMi" alignment="0" pref="161" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaQl" alignment="0" pref="161" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -505,7 +493,7 @@
                               <Component id="jLabelCewkaLMi" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelCewkaQl" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="147" max="32767" attributes="0"/>
+                              <EmptySpace pref="138" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -573,10 +561,9 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabelCewkaWzor" alignment="0" pref="185" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="jLabelCewkaUw" max="32767" attributes="1"/>
@@ -590,7 +577,8 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jLabelCewkaFxJdn" min="-2" pref="50" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="jSeparator2" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                  <Component id="jSeparator2" alignment="1" pref="185" max="32767" attributes="1"/>
+                                  <Component id="jLabelCewkaWzor" alignment="1" max="32767" attributes="1"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -617,11 +605,11 @@
                                       <Component id="jSpinnerCewkaFx" min="-2" pref="28" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                              <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jSeparator2" min="-2" pref="12" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelCewkaWzor" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -733,7 +721,7 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
@@ -743,14 +731,14 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jPanelLPNParam" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="jLabel13" alignment="0" pref="653" max="32767" attributes="0"/>
+                              <Component id="jLabel13" alignment="0" pref="643" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="jLabel2" min="-2" pref="227" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
                                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel10" alignment="0" pref="653" max="32767" attributes="0"/>
-                              <Component id="jLabel14" alignment="0" pref="653" max="32767" attributes="0"/>
+                              <Component id="jLabel10" alignment="0" pref="643" max="32767" attributes="0"/>
+                              <Component id="jLabel14" alignment="1" pref="643" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -768,13 +756,13 @@
                           <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jPanelLPNParam" max="32767" attributes="1"/>
                               <Component id="jPanelLPNWy" max="32767" attributes="1"/>
                               <Component id="jPanelLPNWe" alignment="0" max="32767" attributes="1"/>
                           </Group>
-                          <EmptySpace pref="48" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                           <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -853,15 +841,117 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="194" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jSeparator3" alignment="0" pref="189" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelLPNW" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelLPNH" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="1">
+                                              <Component id="jSpinnerLPNH" min="-2" pref="114" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabelLPNHJdn" min="-2" pref="41" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinnerLPNW" min="-2" pref="114" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabelLPNWJdn" min="-2" pref="41" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jSpinnerLPNW" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabelLPNW" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelLPNWJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jSpinnerLPNH" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabelLPNH" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelLPNHJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jSeparator3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="120" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabelLPNW">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelLPNW" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNW.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNW" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelLPNH">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelLPNH" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNH.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNH" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerLPNW">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSpinnerLPNW" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerLPNH">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSpinnerLPNH" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSeparator" name="jSeparator3">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator3" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelLPNWJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelLPNWJdn" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNWJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNWJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelLPNHJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelLPNHJdn" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNHJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNHJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="jPanelLPNWy">
                   <Properties>
@@ -886,12 +976,12 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="202" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="181" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -918,12 +1008,12 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="209" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="205" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -949,29 +1039,29 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel16" pref="653" max="32767" attributes="0"/>
+                                  <Component id="jLabel16" pref="643" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" pref="377" max="32767" attributes="0"/>
+                                  <Component id="jLabel3" pref="367" max="32767" attributes="0"/>
                                   <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
                                   <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel11" pref="653" max="32767" attributes="0"/>
+                                  <Component id="jLabel11" pref="643" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel15" pref="653" max="32767" attributes="0"/>
+                                  <Component id="jPanelRezonWe" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jPanelRezonWy" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jPanelRezonParam" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jPanel3" max="32767" attributes="0"/>
+                                  <Component id="jLabel15" pref="643" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -990,13 +1080,13 @@
                           <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jPanel3" max="32767" attributes="0"/>
-                              <Component id="jPanel2" max="32767" attributes="1"/>
-                              <Component id="jPanel1" alignment="0" max="32767" attributes="1"/>
+                              <Component id="jPanelRezonParam" max="32767" attributes="1"/>
+                              <Component id="jPanelRezonWy" max="32767" attributes="1"/>
+                              <Component id="jPanelRezonWe" alignment="0" max="32767" attributes="1"/>
                           </Group>
-                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                           <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -1047,7 +1137,7 @@
                     <Property name="name" type="java.lang.String" value="jLabel16" noResource="true"/>
                   </Properties>
                 </Component>
-                <Container class="javax.swing.JPanel" name="jPanel1">
+                <Container class="javax.swing.JPanel" name="jPanelRezonWe">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
@@ -1055,13 +1145,13 @@
                           <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                             <EtchetBorder/>
                           </Border>
-                          <Property name="titleX" resourceKey="jPanel1.border.title"/>
-                          <Property name="font" resourceKey="jPanel1.border.titleFont"/>
-                          <Property name="color" resourceKey="jPanel1.border.titleColor"/>
+                          <Property name="titleX" resourceKey="jPanelRezonWe.border.title"/>
+                          <Property name="font" resourceKey="jPanelRezonWe.border.titleFont"/>
+                          <Property name="color" resourceKey="jPanelRezonWe.border.titleColor"/>
                         </TitledBorder>
                       </Border>
                     </Property>
-                    <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+                    <Property name="name" type="java.lang.String" value="jPanelRezonWe" noResource="true"/>
                   </Properties>
                   <AccessibilityProperties>
                     <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jPanel1.AccessibleContext.accessibleName"/>
@@ -1070,17 +1160,17 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="194" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="209" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                 </Container>
-                <Container class="javax.swing.JPanel" name="jPanel2">
+                <Container class="javax.swing.JPanel" name="jPanelRezonWy">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
@@ -1088,13 +1178,13 @@
                           <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                             <EtchetBorder/>
                           </Border>
-                          <Property name="titleX" resourceKey="jPanel2.border.title"/>
-                          <Property name="font" resourceKey="jPanel2.border.titleFont"/>
-                          <Property name="color" resourceKey="jPanel2.border.titleColor"/>
+                          <Property name="titleX" resourceKey="jPanelRezonWy.border.title"/>
+                          <Property name="font" resourceKey="jPanelRezonWy.border.titleFont"/>
+                          <Property name="color" resourceKey="jPanelRezonWy.border.titleColor"/>
                         </TitledBorder>
                       </Border>
                     </Property>
-                    <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+                    <Property name="name" type="java.lang.String" value="jPanelRezonWy" noResource="true"/>
                   </Properties>
                   <AccessibilityProperties>
                     <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jPanel2.AccessibleContext.accessibleName"/>
@@ -1103,17 +1193,17 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="201" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="181" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                 </Container>
-                <Container class="javax.swing.JPanel" name="jPanel3">
+                <Container class="javax.swing.JPanel" name="jPanelRezonParam">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
@@ -1121,12 +1211,12 @@
                           <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                             <EtchetBorder/>
                           </Border>
-                          <Property name="titleX" resourceKey="jPanel3.border.title"/>
-                          <Property name="font" resourceKey="jPanel3.border.titleFont"/>
+                          <Property name="titleX" resourceKey="jPanelRezonParam.border.title"/>
+                          <Property name="font" resourceKey="jPanelRezonParam.border.titleFont"/>
                         </TitledBorder>
                       </Border>
                     </Property>
-                    <Property name="name" type="java.lang.String" value="jPanel3" noResource="true"/>
+                    <Property name="name" type="java.lang.String" value="jPanelRezonParam" noResource="true"/>
                   </Properties>
                   <AccessibilityProperties>
                     <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jPanel3.AccessibleContext.accessibleName"/>
@@ -1135,12 +1225,12 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="210" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="205" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
