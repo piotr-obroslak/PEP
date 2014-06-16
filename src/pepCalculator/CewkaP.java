@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package pepKalkulator;
+package pepCalculator;
 
 import java.lang.Math.*;
 import java.math.BigDecimal;
@@ -102,11 +102,13 @@ public class CewkaP {
         N = Norm.EnsureInRange(val, minN, maxN);
     }
     public void decN(boolean x10) {
-        double krok = (x10 ? (double)1e-1/*krokN / 10.*/ : krokN);
+        // here x10 means 10 times slower
+        double krok = (x10 ? krokN : 10. * krokN);
         setN(N - krok);
     }
     public void incN(boolean x10) {
-        double krok = (x10 ? (double)1e-1/*krokN / 10.*/ : krokN);
+        // here x10 means 10 times slower
+        double krok = (x10 ? krokN : 10. * krokN);
         setN(N + krok);
     }
 
@@ -229,21 +231,6 @@ public class CewkaP {
 //    }
     
     
-    public boolean SaveDefaultCfg() {
-        
-        StringBuilder str = new StringBuilder();
-        str.append("To jest zbior konfiguracyjny do wyliczen cewki powietrznej\n");
-        str.append(MakeBackCompatibleForStorage(Lx)); str.append("\n");
-        str.append(MakeBackCompatibleForStorage(X)); str.append("\n");
-        str.append(MakeBackCompatibleForStorage(D)); str.append("\n");
-        str.append(MakeBackCompatibleForStorage(N)); str.append("\n");
-        str.append(MakeBackCompatibleForStorage(Rs)); str.append("\n");
-        str.append(MakeBackCompatibleForStorage(fx)); str.append("\n");
-        str.append(MakeBackCompatibleForStorage(Mi)); str.append("\n");
-        
-        return ShortTxtFile.EasyWrite(FName, str.toString());
-    }
-    
     private String MakeBackCompatibleForStorage(double Value) {
         
         DecimalFormat df = new DecimalFormat("0.00000E0000");
@@ -257,6 +244,21 @@ public class CewkaP {
         }
         
         return str;
+    }
+    
+    public boolean SaveDefaultCfg() {
+        
+        StringBuilder str = new StringBuilder();
+        str.append("To jest zbior konfiguracyjny do wyliczen cewki powietrznej\n");
+        str.append(MakeBackCompatibleForStorage(Lx)); str.append("\n");
+        str.append(MakeBackCompatibleForStorage(X)); str.append("\n");
+        str.append(MakeBackCompatibleForStorage(D)); str.append("\n");
+        str.append(MakeBackCompatibleForStorage(N)); str.append("\n");
+        str.append(MakeBackCompatibleForStorage(Rs)); str.append("\n");
+        str.append(MakeBackCompatibleForStorage(fx)); str.append("\n");
+        str.append(MakeBackCompatibleForStorage(Mi)); str.append("\n");
+        
+        return ShortTxtFile.EasyWrite(FName, str.toString());
     }
     
     private double GetValueFromStorageString(String str) {
@@ -413,8 +415,8 @@ public class CewkaP {
         fx = 1e3;
         krokX = 1e-1;
         krokD = 1e-1;
-        krokN = 1e0;
-        krokRs = 1E-3;
+        krokN = 1e-1;
+        krokRs = 1e-3;
         Mi = 1.;
         WylKom = "komentarz do wzorow";
     }

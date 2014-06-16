@@ -18,7 +18,7 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="calculatorsTPane" alignment="0" pref="442" max="32767" attributes="0"/>
+              <Component id="calculatorsTPane" alignment="0" pref="447" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
@@ -68,11 +68,7 @@
                                   <Component id="jPanelCewkaParam" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="jLabel9" alignment="0" pref="643" max="32767" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jLabel20" pref="252" max="32767" attributes="0"/>
-                              </Group>
+                              <Component id="jLabel12" alignment="0" pref="643" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -92,15 +88,12 @@
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jPanelCewkaWe" alignment="0" pref="230" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaWe" alignment="0" max="32767" attributes="1"/>
                               <Component id="jPanelCewkaWy" alignment="0" max="32767" attributes="1"/>
-                              <Component id="jPanelCewkaParam" alignment="0" pref="230" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaParam" alignment="0" pref="235" max="32767" attributes="1"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -270,7 +263,7 @@
                                   <Component id="jTextCewkaRs" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabelCewkaRsJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="14" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -441,7 +434,7 @@
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextCewkaRsActionPerformed"/>
                       </Events>
                       <AuxValues>
-                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F9&quot;), &quot;F9 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;F9 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decRs(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F9&quot;), &quot;shift F9 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;shift F9 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decRs(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F10&quot;), &quot;F10 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;F10 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incRs(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F10&quot;), &quot;shift F10 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;shift F10 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incRs(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F7&quot;), &quot;F7 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;F7 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decRs(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F7&quot;), &quot;shift F7 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;shift F7 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.decRs(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F8&quot;), &quot;F8 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;F8 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incRs(false);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextCewkaRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F8&quot;), &quot;shift F8 pressed&quot;);&#xd;&#xa;jTextCewkaRs.getActionMap().put(&quot;shift F8 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        cewkaCalc.incRs(true);&#xd;&#xa;        ReflectCewkaCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
                       </AuxValues>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabelCewkaRsJdn">
@@ -485,9 +478,9 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabelCewkaL" alignment="1" pref="161" max="32767" attributes="0"/>
-                                  <Component id="jLabelCewkaLMi" alignment="0" pref="161" max="32767" attributes="0"/>
-                                  <Component id="jLabelCewkaQl" alignment="1" pref="161" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaL" alignment="1" pref="151" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaLMi" alignment="0" pref="151" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaQl" alignment="1" pref="151" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -502,7 +495,7 @@
                               <Component id="jLabelCewkaLMi" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jLabelCewkaQl" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="128" max="32767" attributes="0"/>
+                              <EmptySpace pref="133" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -573,7 +566,7 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jSeparator2" alignment="1" pref="185" max="32767" attributes="1"/>
+                                  <Component id="jSeparator2" alignment="1" pref="195" max="32767" attributes="1"/>
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="jLabelCewkaUw" max="32767" attributes="1"/>
@@ -581,13 +574,15 @@
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jTextCewkaMi" min="-2" pref="92" max="-2" attributes="1"/>
-                                          <Component id="jSpinnerCewkaFx" min="-2" pref="92" max="-2" attributes="1"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinnerCewkaFx" min="-2" pref="92" max="-2" attributes="1"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabelCewkaFxJdn" pref="69" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jTextCewkaMi" alignment="0" min="-2" pref="92" max="-2" attributes="1"/>
                                       </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jLabelCewkaFxJdn" min="-2" pref="50" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="jLabelCewkaWzor" alignment="1" pref="185" max="32767" attributes="1"/>
+                                  <Component id="jLabelCewkaWzor" alignment="1" pref="195" max="32767" attributes="1"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -601,18 +596,11 @@
                                   <Component id="jLabelCewkaUw" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jTextCewkaMi" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jLabelCewkaFxJdn" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabelCewkaFx" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jSpinnerCewkaFx" min="-2" pref="28" max="-2" attributes="0"/>
-                                  </Group>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelCewkaFxJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelCewkaFx" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinnerCewkaFx" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                               <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
@@ -713,18 +701,6 @@
                     <Property name="name" type="java.lang.String" value="jLabel12" noResource="true"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel20">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
-                      <FontInfo relative="true">
-                        <Font bold="true" component="jLabel20" property="font" relativeSize="true" size="0"/>
-                      </FontInfo>
-                    </Property>
-                    <Property name="foreground" type="java.awt.Color" resourceKey="jLabel20.foreground"/>
-                    <Property name="text" type="java.lang.String" resourceKey="jLabel20.text"/>
-                    <Property name="name" type="java.lang.String" value="jLabel20" noResource="true"/>
-                  </Properties>
-                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="lpnPanel">
@@ -746,7 +722,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jPanelLPNWe" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPanelLPNWe" min="-2" pref="221" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jPanelLPNWy" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -784,9 +760,9 @@
                               <Component id="jPanelLPNWy" max="32767" attributes="1"/>
                               <Component id="jPanelLPNWe" alignment="0" max="32767" attributes="1"/>
                           </Group>
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -803,7 +779,6 @@
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
                   </Properties>
                 </Component>
@@ -823,21 +798,18 @@
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel10.foreground"/>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel10.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel10" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel13">
                   <Properties>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel13.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel13" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel14">
                   <Properties>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel14.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel14" noResource="true"/>
                   </Properties>
                 </Component>
@@ -855,7 +827,6 @@
                         </TitledBorder>
                       </Border>
                     </Property>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
                         <Font bold="true" component="jPanelLPNWe" property="font" relativeSize="true" size="1"/>
@@ -873,29 +844,41 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jSeparator3" alignment="0" pref="189" max="32767" attributes="1"/>
+                                  <Component id="jSeparator3" alignment="0" pref="191" max="32767" attributes="1"/>
+                                  <Component id="jLabelLPNWDivH" alignment="0" pref="191" max="32767" attributes="0"/>
+                                  <Component id="jLabelLPNW_ef" alignment="0" pref="191" max="32767" attributes="0"/>
+                                  <Component id="jLabelLPNEps_ef" alignment="1" pref="191" max="32767" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabelLPNW" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabelLPNH" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                           <Group type="102" alignment="0" attributes="1">
+                                              <Component id="jLabelLPNH" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
                                               <Component id="jSpinnerLPNH" min="-2" pref="114" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jLabelLPNHJdn" min="-2" pref="41" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="jSpinnerLPNW" min="-2" pref="114" max="-2" attributes="0"/>
+                                              <Component id="jLabelLPNW" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="jLabelLPNW_mls" alignment="0" max="32767" attributes="1"/>
+                                                  <Component id="jSpinnerLPNW" alignment="0" pref="114" max="32767" attributes="1"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Component id="jLabelLPNWJdn" min="-2" pref="41" max="-2" attributes="0"/>
                                           </Group>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                              <Component id="jLabelLPNW_mlsJdn" min="-2" pref="38" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                              <Component id="jLabelLPNHJdn" min="-2" pref="41" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
                                   </Group>
-                                  <Component id="jLabelLPNWDivH" alignment="0" pref="189" max="32767" attributes="0"/>
-                                  <Component id="jLabelLPNW_ef" alignment="0" pref="189" max="32767" attributes="0"/>
-                                  <Component id="jLabelLPNEps_ef" alignment="1" pref="189" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -912,6 +895,11 @@
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelLPNW_mls" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelLPNW_mlsJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="12" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jSpinnerLPNH" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jLabelLPNH" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabelLPNHJdn" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -924,7 +912,7 @@
                               <Component id="jLabelLPNW_ef" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jLabelLPNEps_ef" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="42" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -938,7 +926,6 @@
                           </FontInfo>
                         </Property>
                         <Property name="text" type="java.lang.String" resourceKey="jLabelLPNW.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
                         <Property name="name" type="java.lang.String" value="jLabelLPNW" noResource="true"/>
                       </Properties>
                     </Component>
@@ -950,19 +937,28 @@
                           </FontInfo>
                         </Property>
                         <Property name="text" type="java.lang.String" resourceKey="jLabelLPNH.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
                         <Property name="name" type="java.lang.String" value="jLabelLPNH" noResource="true"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JSpinner" name="jSpinnerLPNW">
                       <Properties>
-                        <Property name="enabled" type="boolean" value="false"/>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerLPNW)" type="code"/>
+                        </Property>
                         <Property name="name" type="java.lang.String" value="jSpinnerLPNW" noResource="true"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JSpinner" name="jSpinnerLPNH">
                       <Properties>
-                        <Property name="enabled" type="boolean" value="false"/>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerLPNH)" type="code"/>
+                        </Property>
                         <Property name="name" type="java.lang.String" value="jSpinnerLPNH" noResource="true"/>
                       </Properties>
                     </Component>
@@ -979,7 +975,6 @@
                           </FontInfo>
                         </Property>
                         <Property name="text" type="java.lang.String" resourceKey="jLabelLPNWJdn.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
                         <Property name="name" type="java.lang.String" value="jLabelLPNWJdn" noResource="true"/>
                       </Properties>
                     </Component>
@@ -991,7 +986,6 @@
                           </FontInfo>
                         </Property>
                         <Property name="text" type="java.lang.String" resourceKey="jLabelLPNHJdn.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
                         <Property name="name" type="java.lang.String" value="jLabelLPNHJdn" noResource="true"/>
                       </Properties>
                     </Component>
@@ -1003,7 +997,6 @@
                           </FontInfo>
                         </Property>
                         <Property name="text" type="java.lang.String" resourceKey="jLabelLPNWDivH.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
                         <Property name="name" type="java.lang.String" value="jLabelLPNWDivH" noResource="true"/>
                       </Properties>
                     </Component>
@@ -1015,7 +1008,6 @@
                           </FontInfo>
                         </Property>
                         <Property name="text" type="java.lang.String" resourceKey="jLabelLPNW_ef.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
                         <Property name="name" type="java.lang.String" value="jLabelLPNW_ef" noResource="true"/>
                       </Properties>
                     </Component>
@@ -1027,9 +1019,34 @@
                           </FontInfo>
                         </Property>
                         <Property name="text" type="java.lang.String" resourceKey="jLabelLPNEps_ef.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
                         <Property name="name" type="java.lang.String" value="jLabelLPNEps_ef" noResource="true"/>
                       </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelLPNW_mls">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="false" component="jLabelLPNW_mls" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNW_mls.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNW_mls" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelLPNW_mlsJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelLPNW_mlsJdn" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNW_mlsJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNW_mlsJdn" noResource="true"/>
+                      </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jLabelLPNW_mlsJdn.AccessibleContext.accessibleName"/>
+                      </AccessibilityProperties>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1059,7 +1076,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel17" pref="161" max="32767" attributes="0"/>
+                              <Component id="jLabelLPNZ0" pref="161" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -1068,25 +1085,27 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="175" max="32767" attributes="0"/>
+                              <Component id="jLabelLPNZ0" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="180" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Component class="javax.swing.JLabel" name="jLabel17">
+                    <Component class="javax.swing.JLabel" name="jLabelLPNZ0">
                       <Properties>
                         <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                           <FontInfo relative="true">
-                            <Font bold="true" component="jLabel17" property="font" relativeSize="true" size="1"/>
+                            <Font bold="true" component="jLabelLPNZ0" property="font" relativeSize="true" size="1"/>
                           </FontInfo>
                         </Property>
-                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel17.foreground"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel17.text"/>
-                        <Property name="enabled" type="boolean" value="false"/>
-                        <Property name="name" type="java.lang.String" value="jLabel17" noResource="true"/>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelLPNZ0.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNZ0.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNZ0" noResource="true"/>
                       </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jLabelLPNZ0.AccessibleContext.accessibleName"/>
+                      </AccessibilityProperties>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1116,10 +1135,20 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabelLPNT" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabelLPNEps" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelLPNT" min="-2" pref="27" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jTextLPNT" min="-2" pref="92" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabelLPNTJdn" pref="58" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelLPNEps" min="-2" pref="26" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jSpinnerLPNEps" min="-2" pref="92" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <EmptySpace pref="176" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1127,10 +1156,17 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabelLPNT" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelLPNT" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextLPNT" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabelLPNTJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jLabelLPNEps" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="156" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelLPNEps" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinnerLPNEps" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="133" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1160,17 +1196,45 @@
                         <Property name="name" type="java.lang.String" value="jLabelLPNEps" noResource="true"/>
                       </Properties>
                     </Component>
+                    <Component class="javax.swing.JTextField" name="jTextLPNT">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="11"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jTextLPNT.text"/>
+                        <Property name="name" type="java.lang.String" value="jTextLPNT" noResource="true"/>
+                      </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jTextLPNT.AccessibleContext.accessibleName"/>
+                      </AccessibilityProperties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerLPNEps">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSpinnerLPNEps" noResource="true"/>
+                      </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jSpinnerLPNEps.AccessibleContext.accessibleName"/>
+                      </AccessibilityProperties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelLPNTJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelLPNTJdn" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelLPNTJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelLPNTJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
                   </SubComponents>
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel18">
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font bold="true" component="jLabel18" property="font" relativeSize="true" size="0"/>
+                        <Font component="jLabel18" property="font" relativeSize="true" size="0"/>
                       </FontInfo>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel18.foreground"/>
-                    <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel18.text"/>
                     <Property name="name" type="java.lang.String" value="jLabel18" noResource="true"/>
                   </Properties>
@@ -1273,6 +1337,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel6">
                   <Properties>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
                   </Properties>
                 </Component>
@@ -1333,7 +1398,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="211" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -1367,7 +1432,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="211" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -1400,7 +1465,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="206" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="211" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
