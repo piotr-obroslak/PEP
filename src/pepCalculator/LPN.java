@@ -42,6 +42,17 @@ public class LPN {
     public int getW_mls() {
         return (int)(Math.ceil(w * mls));
     }
+    public void setW(double val) {
+        w = Norm.EnsureInRange(val, minW, maxW);
+    }
+    public void decW(boolean x10) {
+        double krok = (x10 ? 10. * Dhw : Dhw);
+        setW(w - krok);
+    }
+    public void incW(boolean x10) {
+        double krok = (x10 ? 10. * Dhw : Dhw);
+        setW(w + krok);
+    }
     
     /**
      * 
@@ -62,6 +73,10 @@ public class LPN {
     /**
      * 
      */
+    public double getEps() {
+        return er;
+    }
+    
     public double getEps_ef() {
         return efs;
     }
@@ -74,6 +89,13 @@ public class LPN {
             return Z1;
         else
             return Z2;
+    }
+    
+    /**
+     * 
+     */
+    public double getT() {
+        return t;
     }
     
     /**
@@ -210,7 +232,7 @@ public class LPN {
      */
     private void InitVars() {
 
-        krok = 1E-3;
+        //krok = 1E-3;
         h = 1.5;
         er = 5;
         t = 30E-3;
@@ -221,6 +243,11 @@ public class LPN {
     // attributes...
     private static final String
             FName   = "LPN.cfg";
+    
+    private static final double
+            minW    = 0.02,
+            maxW    = 100.,
+            Dhw     = 0.02; /** przyrost szerokosci paska*/
 
     private static final double
             mls     = 1000. / 25.4;
@@ -254,7 +281,7 @@ public class LPN {
             Z1,     /* aktualna wartosc liczonego Z0 wg 1. wzoru */
             Z2,     /* aktualna wartosc liczonego Z0 wg 2. wzoru */
             DZ,     /* aktualny blad Z0 */
-            krok,   /* krok zwiekszania szerokosci paska 'w' */
+            //krok,   /* krok zwiekszania szerokosci paska 'w' */
             DW,     /* poprawka szerokosci - we = w+DW */
             DW1,    /* poprawka szerokosci - 1szy wzor */
             DW2,    /* poprawka szerokosci - 2gi wzor */
