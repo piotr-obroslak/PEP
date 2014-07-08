@@ -722,7 +722,7 @@ public class PEPView extends FrameView {
                 .addGroup(cewkapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanelCewkaWe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanelCewkaWy, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanelCewkaParam, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanelCewkaParam, javax.swing.GroupLayout.DEFAULT_SIZE, 235, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(4, 4, 4)
@@ -818,6 +818,49 @@ public class PEPView extends FrameView {
         jSpinnerLPNH.setModel(new StepCountingSpinnerNumberModel());
         jSpinnerLPNH.setEditor(new ModelIndependentSpinnerEditor(jSpinnerLPNH));
         jSpinnerLPNH.setName("jSpinnerLPNH"); // NOI18N
+        ((ModelIndependentSpinnerEditor)jSpinnerLPNH.getEditor()).getTextField().
+        addActionListener(new ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LPNHEditActionPerformed(evt);
+            }
+        });
+
+        jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("F5"), "F5 pressed");
+        jSpinnerLPNH.getActionMap().put("F5 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.decH(false);
+                ReflectLPNCalc();
+            }
+        });
+
+        jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift F5"), "shift F5 pressed");
+        jSpinnerLPNH.getActionMap().put("shift F5 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.decH(true);
+                ReflectLPNCalc();
+            }
+        });
+
+        jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("F6"), "F6 pressed");
+        jSpinnerLPNH.getActionMap().put("F6 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.incH(false);
+                ReflectLPNCalc();
+            }
+        });
+
+        jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift F6"), "shift F6 pressed");
+        jSpinnerLPNH.getActionMap().put("shift F6 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.incH(true);
+                ReflectLPNCalc();
+            }
+        });
+        jSpinnerLPNH.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                jSpinnerLPNHStateChanged(evt);
+            }
+        });
 
         jSeparator3.setName("jSeparator3"); // NOI18N
 
@@ -960,6 +1003,49 @@ public class PEPView extends FrameView {
         jSpinnerLPNEps.setModel(new pep.StepCountingSpinnerNumberModel());
         jSpinnerLPNEps.setEditor(new ModelIndependentSpinnerEditor(jSpinnerLPNEps));
         jSpinnerLPNEps.setName("jSpinnerLPNEps"); // NOI18N
+        ((ModelIndependentSpinnerEditor)jSpinnerLPNEps.getEditor()).getTextField().
+        addActionListener(new ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LPNEpsEditActionPerformed(evt);
+            }
+        });
+
+        jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("F7"), "F7 pressed");
+        jSpinnerLPNEps.getActionMap().put("F7 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.decEps(false);
+                ReflectLPNCalc();
+            }
+        });
+
+        jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift F7"), "shift F7 pressed");
+        jSpinnerLPNEps.getActionMap().put("shift F7 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.decEps(true);
+                ReflectLPNCalc();
+            }
+        });
+
+        jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("F8"), "F8 pressed");
+        jSpinnerLPNEps.getActionMap().put("F8 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.incEps(false);
+                ReflectLPNCalc();
+            }
+        });
+
+        jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift F8"), "shift F8 pressed");
+        jSpinnerLPNEps.getActionMap().put("shift F8 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                LPNCalc.incEps(true);
+                ReflectLPNCalc();
+            }
+        });
+        jSpinnerLPNEps.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                jSpinnerLPNEpsStateChanged(evt);
+            }
+        });
 
         jLabelLPNTJdn.setFont(jLabelLPNTJdn.getFont().deriveFont(jLabelLPNTJdn.getFont().getStyle() | java.awt.Font.BOLD));
         jLabelLPNTJdn.setText(resourceMap.getString("jLabelLPNTJdn.text")); // NOI18N
@@ -1206,7 +1292,7 @@ public class PEPView extends FrameView {
         );
         mainPanelLayout.setVerticalGroup(
             mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(calculatorsTPane, javax.swing.GroupLayout.DEFAULT_SIZE, 447, Short.MAX_VALUE)
+            .addComponent(calculatorsTPane, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 447, Short.MAX_VALUE)
         );
 
         menuBar.setName("menuBar"); // NOI18N
@@ -1389,10 +1475,56 @@ public class PEPView extends FrameView {
         ReflectLPNCalc();
     }//GEN-LAST:event_jSpinnerLPNWStateChanged
 
+    private void jSpinnerLPNHStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSpinnerLPNHStateChanged
+        Integer c = (Integer)((StepCountingSpinnerNumberModel)jSpinnerLPNH.getModel()).getValue();
+        Integer p = (Integer)((StepCountingSpinnerNumberModel)jSpinnerLPNH.getModel()).getHistory();
+        
+        if (c < p)
+            LPNCalc.decH(false);
+        else /*if(p > c)*/
+            LPNCalc.incH(false);
+        
+        ReflectLPNCalc();
+    }//GEN-LAST:event_jSpinnerLPNHStateChanged
+
+    private void jSpinnerLPNEpsStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSpinnerLPNEpsStateChanged
+        Integer c = (Integer)((StepCountingSpinnerNumberModel)jSpinnerLPNEps.getModel()).getValue();
+        Integer p = (Integer)((StepCountingSpinnerNumberModel)jSpinnerLPNEps.getModel()).getHistory();
+        
+        if (c < p)
+            LPNCalc.decEps(false);
+        else /*if(p > c)*/
+            LPNCalc.incEps(false);
+        
+        ReflectLPNCalc();
+    }//GEN-LAST:event_jSpinnerLPNEpsStateChanged
+
     private void LPNWEditActionPerformed(java.awt.event.ActionEvent evt) {
         try {
             double val = pepCalculator.Norm.GetValueFromString(evt.getActionCommand());
             LPNCalc.setW(val * 1000.);
+            ReflectLPNCalc();
+        }
+        catch (NumberFormatException nfe) {
+            ReflectLPNCalc();
+        }        
+    }
+    
+    private void LPNHEditActionPerformed(java.awt.event.ActionEvent evt) {
+        try {
+            double val = pepCalculator.Norm.GetValueFromString(evt.getActionCommand());
+            LPNCalc.setH(val * 1000.);
+            ReflectLPNCalc();
+        }
+        catch (NumberFormatException nfe) {
+            ReflectLPNCalc();
+        }        
+    }
+
+    private void LPNEpsEditActionPerformed(java.awt.event.ActionEvent evt) {
+        try {
+            double val = pepCalculator.Norm.GetValueFromString(evt.getActionCommand());
+            LPNCalc.setEps(val);
             ReflectLPNCalc();
         }
         catch (NumberFormatException nfe) {
@@ -1443,6 +1575,7 @@ public class PEPView extends FrameView {
         pepCalculator.DisplayValue DNorm = pepCalculator.Norm.GetDispVal(D);
         pepCalculator.DisplayValue XDivNNorm = pepCalculator.Norm.GetDispVal(X/N);
         pepCalculator.DisplayValue RsNorm = pepCalculator.Norm.GetDispVal(cewkaCalc.getRs());
+        double DXNorm = pepCalculator.Norm.Round(D/X, 3);
         
         ((ModelIndependentSpinnerEditor)jSpinnerCewkaX.getEditor()).setText(((Double)XNorm.GetVal()).toString());
         jLabelCewkaXJdn.setText("<html><b>[" + XNorm.GetSym() + "m]</b>");
@@ -1450,7 +1583,7 @@ public class PEPView extends FrameView {
         jLabelCewkaDJdn.setText("<html><b>[" + DNorm.GetSym() + "m]</b>");
         ((ModelIndependentSpinnerEditor)jSpinnerCewkaN.getEditor()).setText(((Double)N).toString());
         jLabelCewkaMaxSr.setText("<html><b>max. sr. drutu: " + XDivNNorm.GetVal() + " [" + XDivNNorm.GetSym() + "m]</b>");
-        jLabelCewkaDDivX.setText("<html><b>D/X = " + D/X + "</b>");
+        jLabelCewkaDDivX.setText("<html><b>D/X = " + DXNorm + "</b>");
         jTextCewkaRs.setText(((Double)RsNorm.GetVal()).toString());
         jLabelCewkaRsJdn.setText("<html><b>[" + RsNorm.GetSym() + "\u03a9]</b>");
         
@@ -1488,6 +1621,7 @@ public class PEPView extends FrameView {
         pepCalculator.DisplayValue HNorm = pepCalculator.Norm.GetDispVal(H);
         pepCalculator.DisplayValue W_efNorm = pepCalculator.Norm.GetDispVal(W_ef);
         pepCalculator.DisplayValue Eps_efNorm = pepCalculator.Norm.GetDispVal(Eps_ef);
+        double WHNorm = pepCalculator.Norm.Round(W/H, 3);
         
         ((ModelIndependentSpinnerEditor)jSpinnerLPNW.getEditor()).setText(((Double)WNorm.GetVal()).toString());
         jLabelLPNWJdn.setText("<html><b>[" + WNorm.GetSym() + "m]</b>");
@@ -1496,7 +1630,7 @@ public class PEPView extends FrameView {
         jLabelLPNW_mlsJdn.setText("<html><b>[mls]</b>");
         ((ModelIndependentSpinnerEditor)jSpinnerLPNH.getEditor()).setText(((Double)HNorm.GetVal()).toString());
         jLabelLPNHJdn.setText("<html><b>[" + HNorm.GetSym() + "m]</b>");
-        jLabelLPNWDivH.setText("<html><b>D/X = " + W/H + "</b>");
+        jLabelLPNWDivH.setText("<html><b>D/X = " + WHNorm + "</b>");
         jLabelLPNW_ef.setText("<html><b>W_ef = " + W_efNorm.GetVal() + " [" + W_efNorm.GetSym() + "m]</b>");
         jLabelLPNEps_ef.setText("<html><b>&#949_ef = " + Eps_efNorm.GetVal() + " [" +  Eps_efNorm.GetSym() + "]</b>");
         

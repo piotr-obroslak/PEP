@@ -18,7 +18,7 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="calculatorsTPane" alignment="0" pref="447" max="32767" attributes="0"/>
+              <Component id="calculatorsTPane" alignment="1" pref="447" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
@@ -967,6 +967,12 @@
                         </Property>
                         <Property name="name" type="java.lang.String" value="jSpinnerLPNH" noResource="true"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerLPNHStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerLPNH.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        LPNHEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F5&quot;), &quot;F5 pressed&quot;);&#xd;&#xa;jSpinnerLPNH.getActionMap().put(&quot;F5 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.decH(false);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F5&quot;), &quot;shift F5 pressed&quot;);&#xd;&#xa;jSpinnerLPNH.getActionMap().put(&quot;shift F5 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.decH(true);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F6&quot;), &quot;F6 pressed&quot;);&#xd;&#xa;jSpinnerLPNH.getActionMap().put(&quot;F6 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.incH(false);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNH.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F6&quot;), &quot;shift F6 pressed&quot;);&#xd;&#xa;jSpinnerLPNH.getActionMap().put(&quot;shift F6 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.incH(true);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JSeparator" name="jSeparator3">
                       <Properties>
@@ -1221,6 +1227,12 @@
                       <AccessibilityProperties>
                         <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jSpinnerLPNEps.AccessibleContext.accessibleName"/>
                       </AccessibilityProperties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerLPNEpsStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerLPNEps.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        LPNEpsEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F7&quot;), &quot;F7 pressed&quot;);&#xd;&#xa;jSpinnerLPNEps.getActionMap().put(&quot;F7 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.decEps(false);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F7&quot;), &quot;shift F7 pressed&quot;);&#xd;&#xa;jSpinnerLPNEps.getActionMap().put(&quot;shift F7 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.decEps(true);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F8&quot;), &quot;F8 pressed&quot;);&#xd;&#xa;jSpinnerLPNEps.getActionMap().put(&quot;F8 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.incEps(false);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerLPNEps.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F8&quot;), &quot;shift F8 pressed&quot;);&#xd;&#xa;jSpinnerLPNEps.getActionMap().put(&quot;shift F8 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        LPNCalc.incEps(true);&#xd;&#xa;        ReflectLPNCalc();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabelLPNTJdn">
                       <Properties>

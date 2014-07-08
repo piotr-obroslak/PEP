@@ -40,19 +40,25 @@ public class LPN {
         return w;   // on a higher level you need to remember this value is in mm
     }
     public int getW_mls() {
-        return (int)(Math.ceil(w * mls));
+        return (int)(Math.ceil(w * mlsPerMm));
     }
     public void setW(double val) {
         w = Norm.EnsureInRange(val, minW, maxW);
     }
     public void decW(boolean x10) {
-        double krok = (x10 ? 10. * Dhw : Dhw);
-        setW(w - krok);
+        double step = (x10 ? 10. * Dw : Dw);
+        setW(w - step);
     }
     public void incW(boolean x10) {
-        double krok = (x10 ? 10. * Dhw : Dhw);
-        setW(w + krok);
+        double step = (x10 ? 10. * Dw : Dw);
+        setW(w + step);
     }
+    
+    public double getW_ef() {
+        //return we / 1000.; // bo w mm
+        return we;   // on a higher level you need to remember this value is in mm
+    }
+
     
     /**
      * 
@@ -61,13 +67,16 @@ public class LPN {
         //return h/1000.; // bo w mm
         return h;   // on a higher level you need to remember this value is in mm
     }
-    
-    /**
-     * 
-     */
-    public double getW_ef() {
-        //return we / 1000.; // bo w mm
-        return we;   // on a higher level you need to remember this value is in mm
+    public void setH(double val) {
+        h = Norm.EnsureInRange(val, minH, maxH);
+    }
+    public void decH(boolean x10) {
+        double step = (x10 ? 10. * Dh : Dh);
+        setH(h - step);
+    }
+    public void incH(boolean x10) {
+        double step = (x10 ? 10. * Dh : Dh);
+        setH(h + step);
     }
     
     /**
@@ -75,6 +84,17 @@ public class LPN {
      */
     public double getEps() {
         return er;
+    }
+    public void setEps(double val) {
+        er = Norm.EnsureInRange(val, minEps, maxEps);
+    }
+    public void decEps(boolean x10) {
+        double step = (x10 ? 10. * DEps : DEps);
+        setEps(er - step);
+    }
+    public void incEps(boolean x10) {
+        double step = (x10 ? 10. * DEps : DEps);
+        setEps(er + step);
     }
     
     public double getEps_ef() {
@@ -247,10 +267,20 @@ public class LPN {
     private static final double
             minW    = 0.02,
             maxW    = 100.,
-            Dhw     = 0.02; /** przyrost szerokosci paska*/
+            Dw      = 0.02; /** przyrost szerokosci paska*/
+    
+    private static final double
+            minH    = 0.05,
+            maxH    = 100.,
+            Dh      = 0.01;
+    
+    private static final double
+            minEps  = 1.,
+            maxEps  = 200.,
+            DEps    = 0.05;
 
     private static final double
-            mls     = 1000. / 25.4;
+            mlsPerMm     = 1000. / 25.4;
     
     private static final double
             pi      = Math.PI,
