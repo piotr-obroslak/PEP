@@ -722,7 +722,7 @@ public class PEPView extends FrameView {
                 .addGroup(cewkapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanelCewkaWe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanelCewkaWy, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanelCewkaParam, javax.swing.GroupLayout.DEFAULT_SIZE, 235, Short.MAX_VALUE))
+                    .addComponent(jPanelCewkaParam, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(4, 4, 4)
@@ -999,6 +999,11 @@ public class PEPView extends FrameView {
         jTextLPNT.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         jTextLPNT.setText(resourceMap.getString("jTextLPNT.text")); // NOI18N
         jTextLPNT.setName("jTextLPNT"); // NOI18N
+        jTextLPNT.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextLPNTActionPerformed(evt);
+            }
+        });
 
         jSpinnerLPNEps.setModel(new pep.StepCountingSpinnerNumberModel());
         jSpinnerLPNEps.setEditor(new ModelIndependentSpinnerEditor(jSpinnerLPNEps));
@@ -1499,10 +1504,21 @@ public class PEPView extends FrameView {
         ReflectLPNCalc();
     }//GEN-LAST:event_jSpinnerLPNEpsStateChanged
 
+    private void jTextLPNTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextLPNTActionPerformed
+        try {
+            double val = pepCalculator.Norm.GetValueFromString(jTextLPNT.getText());
+            LPNCalc.setT(val * 1e3);
+            ReflectLPNCalc();
+        }
+        catch (NumberFormatException nfe) {
+            ReflectLPNCalc();
+        }
+    }//GEN-LAST:event_jTextLPNTActionPerformed
+
     private void LPNWEditActionPerformed(java.awt.event.ActionEvent evt) {
         try {
             double val = pepCalculator.Norm.GetValueFromString(evt.getActionCommand());
-            LPNCalc.setW(val * 1000.);
+            LPNCalc.setW(val * 1e3);
             ReflectLPNCalc();
         }
         catch (NumberFormatException nfe) {
@@ -1513,7 +1529,7 @@ public class PEPView extends FrameView {
     private void LPNHEditActionPerformed(java.awt.event.ActionEvent evt) {
         try {
             double val = pepCalculator.Norm.GetValueFromString(evt.getActionCommand());
-            LPNCalc.setH(val * 1000.);
+            LPNCalc.setH(val * 1e3);
             ReflectLPNCalc();
         }
         catch (NumberFormatException nfe) {

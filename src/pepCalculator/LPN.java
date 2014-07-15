@@ -117,6 +117,10 @@ public class LPN {
     public double getT() {
         return t;
     }
+    public void setT(double val) {
+        t = Norm.EnsureInRange(val, minT, maxT);
+    }
+    
     
     /**
      * wykonuje wyliczenia po zmianie ktoregokolwiek z parametrow
@@ -278,6 +282,11 @@ public class LPN {
             minEps  = 1.,
             maxEps  = 200.,
             DEps    = 0.05;
+    
+    private static final double
+            minT    = 1e-3,
+            maxT    = 10e0,
+            Dt      = 1e-3;
 
     private static final double
             mlsPerMm     = 1000. / 25.4;
@@ -300,7 +309,7 @@ public class LPN {
             DWType;
 
     private double
-            t,      /*  */
+            t,      /* grubosc folii */
             w,      /* prawdziwa szerokosc paska */
             we,     /* efektywna szerokosc paska - we wzorach na Z0 */
             h,      /*  */

@@ -90,7 +90,7 @@
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="jPanelCewkaWe" alignment="0" max="32767" attributes="1"/>
                               <Component id="jPanelCewkaWy" alignment="0" max="32767" attributes="1"/>
-                              <Component id="jPanelCewkaParam" alignment="0" pref="235" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaParam" alignment="0" max="32767" attributes="1"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
@@ -1213,6 +1213,9 @@
                       <AccessibilityProperties>
                         <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jTextLPNT.AccessibleContext.accessibleName"/>
                       </AccessibilityProperties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextLPNTActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JSpinner" name="jSpinnerLPNEps">
                       <Properties>
