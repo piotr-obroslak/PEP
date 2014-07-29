@@ -96,26 +96,26 @@ public class PEPView extends FrameView {
     public void saveDefaultParamFile() {
         int idx = calculatorsTPane.getSelectedIndex();
         
-        if (idx == 0)
+        //if (idx == 0)
         {
             cewkaCalc.SaveDefaultCfg();
         }
-        else if (idx == 1)
+        //else if (idx == 1)
         {
-            LPNCalc.LoadDefaultCfg();
+            LPNCalc.SaveDefaultCfg();
         }
     }
     
     public void loadDefaultParamFile() {
         int idx = calculatorsTPane.getSelectedIndex();
         
-        if (idx == 0)
+        //if (idx == 0)
         {
             cewkaCalc.LoadDefaultCfg();
         }
-        else if (idx == 1)
+        //else if (idx == 1)
         {
-            ;
+            LPNCalc.LoadDefaultCfg();
         }
     }
 
