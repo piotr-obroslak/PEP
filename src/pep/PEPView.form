@@ -13,12 +13,12 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="calculatorsTPane" alignment="0" pref="668" max="32767" attributes="0"/>
+              <Component id="calculatorsTPane" alignment="0" pref="775" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="calculatorsTPane" alignment="1" pref="447" max="32767" attributes="0"/>
+              <Component id="calculatorsTPane" alignment="1" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
@@ -54,12 +54,12 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jLabel1" min="-2" pref="448" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" pref="555" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabelCewkaVersion" min="-2" pref="90" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel8" alignment="1" pref="643" max="32767" attributes="0"/>
-                              <Component id="jLabel7" alignment="0" pref="643" max="32767" attributes="0"/>
+                              <Component id="jLabel8" alignment="1" pref="746" max="32767" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" pref="746" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jPanelCewkaWe" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -67,8 +67,8 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jPanelCewkaParam" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel9" alignment="0" pref="643" max="32767" attributes="0"/>
-                              <Component id="jLabel12" alignment="0" pref="643" max="32767" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" pref="746" max="32767" attributes="0"/>
+                              <Component id="jLabel12" alignment="0" pref="746" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -80,17 +80,17 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaVersion" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jPanelCewkaWe" alignment="0" max="32767" attributes="1"/>
-                              <Component id="jPanelCewkaWy" alignment="0" max="32767" attributes="1"/>
-                              <Component id="jPanelCewkaParam" alignment="0" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaParam" alignment="1" pref="241" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaWe" alignment="1" min="0" max="32767" attributes="1"/>
+                              <Component id="jPanelCewkaWy" alignment="1" max="32767" attributes="1"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
@@ -106,7 +106,7 @@
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel1" property="font" relativeSize="true" size="3"/>
+                        <Font bold="true" component="jLabel1" property="font" relativeSize="true" size="3"/>
                       </FontInfo>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
@@ -114,23 +114,23 @@
                     <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel4">
+                <Component class="javax.swing.JLabel" name="jLabelCewkaVersion">
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel4" property="font" relativeSize="true" size="0"/>
+                        <Font component="jLabelCewkaVersion" property="font" relativeSize="true" size="0"/>
                       </FontInfo>
                     </Property>
-                    <Property name="horizontalAlignment" type="int" value="4"/>
-                    <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
-                    <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabelCewkaVersion.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabelCewkaVersion" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel7" property="font" relativeSize="true" size="1"/>
+                        <Font bold="false" component="jLabel7" property="font" relativeSize="true" size="1"/>
                       </FontInfo>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel7.foreground"/>
@@ -143,7 +143,7 @@
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel8" property="font" relativeSize="true" size="0"/>
+                        <Font bold="false" component="jLabel8" property="font" relativeSize="true" size="0"/>
                       </FontInfo>
                     </Property>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel8.text"/>
@@ -154,7 +154,7 @@
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel9" property="font" relativeSize="true" size="0"/>
+                        <Font bold="false" component="jLabel9" property="font" relativeSize="true" size="0"/>
                       </FontInfo>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel9.foreground"/>
@@ -191,48 +191,60 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaX" pref="28" max="32767" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSpinnerCewkaX" min="-2" pref="114" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaXJdn" pref="41" max="32767" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaD" max="32767" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSpinnerCewkaD" min="-2" pref="114" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaDJdn" min="-2" pref="41" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="13" max="32767" attributes="0"/>
+                              <Component id="jLabelCewkaN" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSpinnerCewkaN" min="-2" pref="114" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaNJdn" min="-2" pref="41" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jSeparator1" alignment="0" pref="186" max="32767" attributes="1"/>
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Group type="102" alignment="0" attributes="1">
-                                          <Component id="jLabelCewkaRs" min="-2" max="-2" attributes="1"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="jTextCewkaRs" min="-2" pref="77" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jLabelCewkaRsJdn" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Component id="jLabelCewkaDDivX" alignment="0" max="32767" attributes="1"/>
-                                      <Component id="jLabelCewkaMaxSr" alignment="0" max="32767" attributes="1"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="jLabelCewkaD" alignment="0" max="32767" attributes="1"/>
-                                              <Component id="jLabelCewkaN" alignment="0" max="32767" attributes="1"/>
-                                              <Component id="jLabelCewkaX" alignment="0" max="32767" attributes="1"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="jSpinnerCewkaN" alignment="1" min="-2" pref="114" max="-2" attributes="1"/>
-                                              <Component id="jSpinnerCewkaD" alignment="0" min="-2" pref="114" max="-2" attributes="1"/>
-                                              <Component id="jSpinnerCewkaX" alignment="1" min="-2" pref="114" max="-2" attributes="1"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="jLabelCewkaNJdn" min="-2" pref="41" max="-2" attributes="1"/>
-                                              <Component id="jLabelCewkaDJdn" alignment="0" min="-2" pref="41" max="-2" attributes="1"/>
-                                              <Component id="jLabelCewkaXJdn" alignment="0" pref="41" max="32767" attributes="1"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
+                              <Component id="jSeparator1" pref="207" max="32767" attributes="1"/>
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelCewkaMaxSr" alignment="1" pref="207" max="32767" attributes="1"/>
+                                  <Component id="jLabelCewkaDDivX" alignment="1" pref="207" max="32767" attributes="1"/>
                               </Group>
-                              <EmptySpace pref="13" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaRs" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jTextCewkaRs" min="-2" pref="77" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCewkaRsJdn" pref="69" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabelCewkaX" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -245,25 +257,25 @@
                                   <Component id="jSpinnerCewkaD" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jLabelCewkaDJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace pref="7" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabelCewkaN" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jSpinnerCewkaN" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jLabelCewkaNJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                              <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator1" min="-2" pref="6" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelCewkaMaxSr" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelCewkaDDivX" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabelCewkaRs" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextCewkaRs" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextCewkaRs" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                                   <Component id="jLabelCewkaRsJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="14" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -426,6 +438,11 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextCewkaRs">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jTextCewkaRs" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
                         <Property name="horizontalAlignment" type="int" value="4"/>
                         <Property name="text" type="java.lang.String" resourceKey="jTextCewkaRs.text"/>
                         <Property name="name" type="java.lang.String" value="jTextCewkaRs" noResource="true"/>
@@ -478,9 +495,9 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabelCewkaL" alignment="1" pref="151" max="32767" attributes="0"/>
-                                  <Component id="jLabelCewkaLMi" alignment="0" pref="151" max="32767" attributes="0"/>
-                                  <Component id="jLabelCewkaQl" alignment="1" pref="151" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaL" alignment="1" pref="203" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaLMi" alignment="0" pref="203" max="32767" attributes="0"/>
+                                  <Component id="jLabelCewkaQl" alignment="1" pref="203" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -495,7 +512,7 @@
                               <Component id="jLabelCewkaLMi" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jLabelCewkaQl" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="133" max="32767" attributes="0"/>
+                              <EmptySpace pref="131" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -566,7 +583,7 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jSeparator2" alignment="1" pref="195" max="32767" attributes="1"/>
+                                  <Component id="jSeparator2" alignment="1" pref="215" max="32767" attributes="1"/>
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="jLabelCewkaUw" max="32767" attributes="1"/>
@@ -582,7 +599,7 @@
                                           <Component id="jTextCewkaMi" alignment="0" min="-2" pref="92" max="-2" attributes="1"/>
                                       </Group>
                                   </Group>
-                                  <Component id="jLabelCewkaWzor" alignment="1" pref="195" max="32767" attributes="1"/>
+                                  <Component id="jLabelCewkaWzor" alignment="1" pref="215" max="32767" attributes="1"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -606,7 +623,7 @@
                               <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jLabelCewkaWzor" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -675,6 +692,11 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextCewkaMi">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jTextCewkaMi" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
                         <Property name="horizontalAlignment" type="int" value="4"/>
                         <Property name="text" type="java.lang.String" resourceKey="jTextCewkaMi.text"/>
                         <Property name="name" type="java.lang.String" value="jTextCewkaMi" noResource="true"/>
@@ -694,7 +716,7 @@
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel12" property="font" relativeSize="true" size="0"/>
+                        <Font bold="false" component="jLabel12" property="font" relativeSize="true" size="0"/>
                       </FontInfo>
                     </Property>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel12.text"/>
@@ -722,21 +744,21 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jPanelLPNWe" min="-2" pref="221" max="-2" attributes="0"/>
+                                  <Component id="jPanelLPNWe" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jPanelLPNWy" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jPanelLPNParam" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="jLabel13" alignment="0" pref="643" max="32767" attributes="0"/>
+                              <Component id="jLabel13" alignment="0" pref="746" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jLabel2" min="-2" pref="227" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="420" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                  <Component id="jLabelLPNVersion" min="-2" pref="99" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel10" alignment="0" pref="643" max="32767" attributes="0"/>
-                              <Component id="jLabel14" alignment="1" pref="643" max="32767" attributes="0"/>
-                              <Component id="jLabel18" alignment="0" pref="643" max="32767" attributes="0"/>
+                              <Component id="jLabel10" alignment="0" pref="746" max="32767" attributes="0"/>
+                              <Component id="jLabel14" alignment="1" pref="746" max="32767" attributes="0"/>
+                              <Component id="jLabel18" alignment="0" pref="746" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -747,18 +769,18 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelLPNVersion" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
                               <Component id="jPanelLPNParam" max="32767" attributes="1"/>
-                              <Component id="jPanelLPNWy" max="32767" attributes="1"/>
-                              <Component id="jPanelLPNWe" alignment="0" max="32767" attributes="1"/>
+                              <Component id="jPanelLPNWe" alignment="1" min="0" pref="233" max="32767" attributes="1"/>
+                              <Component id="jPanelLPNWy" alignment="1" max="32767" attributes="1"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
@@ -782,17 +804,23 @@
                     <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel5">
+                <Component class="javax.swing.JLabel" name="jLabelLPNVersion">
                   <Properties>
-                    <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
-                    <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+                    <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                      <FontInfo relative="true">
+                        <Font component="jLabelLPNVersion" property="font" relativeSize="true" size="0"/>
+                      </FontInfo>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabelLPNVersion.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabelLPNVersion" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel10" property="font" relativeSize="true" size="1"/>
+                        <Font bold="false" component="jLabel10" property="font" relativeSize="true" size="1"/>
                       </FontInfo>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel10.foreground"/>
@@ -803,12 +831,22 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel13">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                      <FontInfo relative="true">
+                        <Font bold="false" component="jLabel13" property="font" relativeSize="true" size="0"/>
+                      </FontInfo>
+                    </Property>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel13.text"/>
                     <Property name="name" type="java.lang.String" value="jLabel13" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel14">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                      <FontInfo relative="true">
+                        <Font bold="false" component="jLabel14" property="font" relativeSize="true" size="0"/>
+                      </FontInfo>
+                    </Property>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel14.text"/>
                     <Property name="name" type="java.lang.String" value="jLabel14" noResource="true"/>
                   </Properties>
@@ -844,10 +882,7 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jSeparator3" alignment="0" pref="191" max="32767" attributes="1"/>
-                                  <Component id="jLabelLPNWDivH" alignment="0" pref="191" max="32767" attributes="0"/>
-                                  <Component id="jLabelLPNW_ef" alignment="0" pref="191" max="32767" attributes="0"/>
-                                  <Component id="jLabelLPNEps_ef" alignment="1" pref="191" max="32767" attributes="0"/>
+                                  <Component id="jSeparator3" alignment="0" pref="211" max="32767" attributes="1"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                           <Group type="102" alignment="0" attributes="1">
@@ -864,21 +899,16 @@
                                               </Group>
                                           </Group>
                                       </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jLabelLPNWJdn" min="-2" pref="41" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" attributes="0">
-                                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                                              <Component id="jLabelLPNW_mlsJdn" min="-2" pref="38" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                              <Component id="jLabelLPNHJdn" min="-2" pref="41" max="-2" attributes="0"/>
-                                          </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabelLPNHJdn" pref="45" max="32767" attributes="0"/>
+                                          <Component id="jLabelLPNW_mlsJdn" alignment="1" pref="45" max="32767" attributes="0"/>
+                                          <Component id="jLabelLPNWJdn" alignment="0" pref="45" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
+                                  <Component id="jLabelLPNWDivH" alignment="0" pref="211" max="32767" attributes="0"/>
+                                  <Component id="jLabelLPNW_ef" alignment="0" pref="211" max="32767" attributes="0"/>
+                                  <Component id="jLabelLPNEps_ef" alignment="1" pref="211" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -898,21 +928,21 @@
                                   <Component id="jLabelLPNW_mls" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabelLPNW_mlsJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="12" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jSpinnerLPNH" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                                   <Component id="jLabelLPNH" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabelLPNHJdn" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                              <Component id="jSeparator3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSeparator3" min="-2" pref="8" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jLabelLPNWDivH" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelLPNW_ef" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelLPNEps_ef" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1087,7 +1117,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabelLPNZ0" pref="161" max="32767" attributes="0"/>
+                              <Component id="jLabelLPNZ0" pref="198" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -1097,7 +1127,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabelLPNZ0" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="180" max="32767" attributes="0"/>
+                              <EmptySpace pref="176" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1150,7 +1180,7 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jTextLPNT" min="-2" pref="92" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jLabelLPNTJdn" pref="58" max="32767" attributes="0"/>
+                                      <Component id="jLabelLPNTJdn" pref="74" max="32767" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="jLabelLPNEps" min="-2" pref="26" max="-2" attributes="0"/>
@@ -1176,7 +1206,7 @@
                                   <Component id="jLabelLPNEps" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jSpinnerLPNEps" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="133" max="32767" attributes="0"/>
+                              <EmptySpace pref="130" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1206,6 +1236,11 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextLPNT">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jTextLPNT" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="text" type="java.lang.String" resourceKey="jTextLPNT.text"/>
                         <Property name="name" type="java.lang.String" value="jTextLPNT" noResource="true"/>
@@ -1254,7 +1289,7 @@
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel18" property="font" relativeSize="true" size="0"/>
+                        <Font bold="false" component="jLabel18" property="font" relativeSize="true" size="0"/>
                       </FontInfo>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel18.foreground"/>
@@ -1283,17 +1318,17 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel16" pref="643" max="32767" attributes="0"/>
+                                  <Component id="jLabel16" pref="746" max="32767" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" pref="367" max="32767" attributes="0"/>
-                                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" pref="531" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  <Component id="jLabelRezonVersion" min="-2" pref="107" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel11" pref="643" max="32767" attributes="0"/>
+                                  <Component id="jLabel11" pref="746" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
@@ -1305,11 +1340,11 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel15" pref="643" max="32767" attributes="0"/>
+                                  <Component id="jLabel15" pref="746" max="32767" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel19" pref="643" max="32767" attributes="0"/>
+                                  <Component id="jLabel19" pref="746" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -1321,18 +1356,18 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelRezonVersion" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jPanelRezonParam" max="32767" attributes="1"/>
-                              <Component id="jPanelRezonWy" max="32767" attributes="1"/>
-                              <Component id="jPanelRezonWe" alignment="0" max="32767" attributes="1"/>
+                          <EmptySpace pref="40" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jPanelRezonWe" max="32767" attributes="1"/>
+                              <Component id="jPanelRezonParam" alignment="1" pref="234" max="32767" attributes="1"/>
+                              <Component id="jPanelRezonWy" alignment="1" max="32767" attributes="1"/>
                           </Group>
                           <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                           <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
@@ -1353,42 +1388,49 @@
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel6">
+                <Component class="javax.swing.JLabel" name="jLabelRezonVersion">
                   <Properties>
-                    <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
-                    <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabelRezonVersion.text"/>
+                    <Property name="horizontalTextPosition" type="int" value="4"/>
+                    <Property name="name" type="java.lang.String" value="jLabelRezonVersion" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel11">
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font component="jLabel11" property="font" relativeSize="true" size="1"/>
+                        <Font bold="false" component="jLabel11" property="font" relativeSize="true" size="1"/>
                       </FontInfo>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel11.foreground"/>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel11.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel11" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                      <FontInfo relative="true">
+                        <Font bold="false" component="jLabel15" property="font" relativeSize="true" size="0"/>
+                      </FontInfo>
+                    </Property>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel15.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel15" noResource="true"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                      <FontInfo relative="true">
+                        <Font bold="false" component="jLabel16" property="font" relativeSize="true" size="0"/>
+                      </FontInfo>
+                    </Property>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel16.text"/>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jLabel16" noResource="true"/>
                   </Properties>
                 </Component>
@@ -1406,7 +1448,6 @@
                         </TitledBorder>
                       </Border>
                     </Property>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jPanelRezonWe" noResource="true"/>
                   </Properties>
                   <AccessibilityProperties>
@@ -1416,15 +1457,252 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="209" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator4" alignment="0" pref="208" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabelRezonLx" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jSpinnerRezonLx" pref="102" max="32767" attributes="1"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabelRezonCx" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jSpinnerRezonCx" pref="101" max="32767" attributes="1"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelRezonLxJdn" pref="56" max="32767" attributes="1"/>
+                                          <Component id="jLabelRezonCxJdn" pref="56" max="32767" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabelRezonRr" max="32767" attributes="1"/>
+                                          <Component id="jLabelRezonRs" alignment="0" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jTextRezonRs" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextRezonRr" alignment="0" pref="99" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabelRezonRsUnit" pref="54" max="32767" attributes="1"/>
+                                          <Component id="jLabelRezonRrUnit" alignment="0" pref="54" max="32767" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="211" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelRezonLx" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelRezonLxJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinnerRezonLx" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelRezonCx" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinnerRezonCx" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabelRezonCxJdn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jSeparator4" min="-2" pref="8" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelRezonRr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextRezonRr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelRezonRrUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="17" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelRezonRs" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextRezonRs" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelRezonRsUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonLx">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonLx" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonLx.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonLx" noResource="true"/>
+                      </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jLabelLPNW1.AccessibleContext.accessibleName"/>
+                      </AccessibilityProperties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerRezonLx">
+                      <Properties>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerRezonLx)" type="code"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jSpinnerRezonLx" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerRezonLxStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerRezonLx.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        RezonLxEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F1&quot;), &quot;F1 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;F1 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decLx(false);&#xd;&#xa;        ReflectRezonCalcAfterL();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F1&quot;), &quot;shift F1 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;shift F1 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decLx(true);&#xd;&#xa;        ReflectRezonCalcAfterL();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F2&quot;), &quot;F2 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;F2 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incLx(false);&#xd;&#xa;        ReflectRezonCalcAfterL();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F2&quot;), &quot;shift F2 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;shift F2 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incLx(true);&#xd;&#xa;        ReflectRezonCalcAfterL();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonLxJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonLxJdn" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonLxJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonLxJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonCx">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonCx" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonCx.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonCx" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinnerRezonCx">
+                      <Properties>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new StepCountingSpinnerNumberModel()" type="code"/>
+                        </Property>
+                        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new ModelIndependentSpinnerEditor(jSpinnerRezonLx)" type="code"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jSpinnerRezonCx" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinnerRezonCxStateChanged"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="((ModelIndependentSpinnerEditor)jSpinnerRezonCx.getEditor()).getTextField().&#xd;&#xa;addActionListener(new ActionListener() {&#xd;&#xa;    public void actionPerformed(java.awt.event.ActionEvent evt) {&#xd;&#xa;        RezonCxEditActionPerformed(evt);&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F3&quot;), &quot;F3 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;F3 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decCx(false);&#xd;&#xa;        ReflectRezonCalcAfterC();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F3&quot;), &quot;shift F3 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;shift F3 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decCx(true);&#xd;&#xa;        ReflectRezonCalcAfterC();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F4&quot;), &quot;F4 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;F4 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incCx(false);&#xd;&#xa;        ReflectRezonCalcAfterC();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jSpinnerRezonLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F4&quot;), &quot;shift F4 pressed&quot;);&#xd;&#xa;jSpinnerRezonLx.getActionMap().put(&quot;shift F4 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incCx(true);&#xd;&#xa;        ReflectRezonCalcAfterC();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonCxJdn">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonCxJdn" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonCxJdn.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonCxJdn" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSeparator" name="jSeparator4">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator4" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonRs">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonRs" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonRs.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonRs" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonRr">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonRr" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonRr.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonRr" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextRezonRs">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jTextRezonRs" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jTextRezonRs.text"/>
+                        <Property name="name" type="java.lang.String" value="jTextRezonRs" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextRezonRsActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="&#xd;&#xa;jTextRezonRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F7&quot;), &quot;F7 pressed&quot;);&#xd;&#xa;jTextRezonRs.getActionMap().put(&quot;F7 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decRs(false);&#xd;&#xa;        ReflectRezonCalcAfterRs();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextRezonRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F7&quot;), &quot;shift F7 pressed&quot;);&#xd;&#xa;jTextRezonRs.getActionMap().put(&quot;shift F7 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decRs(true);&#xd;&#xa;        ReflectRezonCalcAfterRs();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextRezonRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F8&quot;), &quot;F8 pressed&quot;);&#xd;&#xa;jTextRezonRs.getActionMap().put(&quot;F8 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incRs(false);&#xd;&#xa;        ReflectRezonCalcAfterRs();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextRezonRs.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F8&quot;), &quot;shift F8 pressed&quot;);&#xd;&#xa;jTextRezonRs.getActionMap().put(&quot;shift F8 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incRs(true);&#xd;&#xa;        ReflectRezonCalcAfterRs();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextRezonRr">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jTextRezonRr" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jTextRezonRr.text"/>
+                        <Property name="name" type="java.lang.String" value="jTextRezonRr" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextRezonRrActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="&#xd;&#xa;jTextRezonRr.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F5&quot;), &quot;F5 pressed&quot;);&#xd;&#xa;jTextRezonRr.getActionMap().put(&quot;F5 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decRr(false);&#xd;&#xa;        ReflectRezonCalcAfterRr();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextRezonRr.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F5&quot;), &quot;shift F5 pressed&quot;);&#xd;&#xa;jTextRezonRr.getActionMap().put(&quot;shift F5 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.decRr(true);&#xd;&#xa;        ReflectRezonCalcAfterRr();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextRezonRr.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;F6&quot;), &quot;F6 pressed&quot;);&#xd;&#xa;jTextRezonRr.getActionMap().put(&quot;F6 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incRr(false);&#xd;&#xa;        ReflectRezonCalcAfterRr();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;&#xd;&#xa;jTextRezonRr.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke(&quot;shift F6&quot;), &quot;shift F6 pressed&quot;);&#xd;&#xa;jTextRezonRr.getActionMap().put(&quot;shift F6 pressed&quot;, new javax.swing.AbstractAction() {&#xd;&#xa;    public void actionPerformed(ActionEvent evt) {&#xd;&#xa;        rezonCalc.incRr(true);&#xd;&#xa;        ReflectRezonCalcAfterRr();&#xd;&#xa;    }&#xd;&#xa;});&#xd;&#xa;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonRsUnit">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonRsUnit" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonRsUnit.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonRsUnit" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonRrUnit">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonRrUnit" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonRrUnit.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonRrUnit" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="jPanelRezonWy">
                   <Properties>
@@ -1440,7 +1718,6 @@
                         </TitledBorder>
                       </Border>
                     </Property>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jPanelRezonWy" noResource="true"/>
                   </Properties>
                   <AccessibilityProperties>
@@ -1450,15 +1727,139 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="181" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabelRezonFR_" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jTextRezonFR" min="-2" pref="107" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabelRezonFRUnit" pref="50" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabelRezonQr" alignment="0" pref="206" max="32767" attributes="0"/>
+                                  <Component id="jLabelRezonQs" alignment="0" pref="206" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="jSeparator5" pref="206" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelRezonRO" pref="206" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="211" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelRezonFR_" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextRezonFR" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelRezonFRUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Component id="jLabelRezonQr" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabelRezonQs" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelRezonRO" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="81" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonQr">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonQr" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonQr.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonQr.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonQr" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonQs">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonQs" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonQs.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonQs.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonQs" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonFR_">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonFR_" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonFR_.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonFR_.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonFR_" noResource="true"/>
+                        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextRezonFR">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jTextRezonFR" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jTextRezonFR.foreground"/>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jTextRezonFR.text"/>
+                        <Property name="name" type="java.lang.String" value="jTextRezonFR" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextRezonFRActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonFRUnit">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonFRUnit" property="font" relativeSize="true" size="0"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonFRUnit.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonFRUnit.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonFRUnit" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSeparator" name="jSeparator5">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator5" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonRO">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonRO" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonRO.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonRO.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonRO" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="jPanelRezonParam">
                   <Properties>
@@ -1473,7 +1874,6 @@
                         </TitledBorder>
                       </Border>
                     </Property>
-                    <Property name="enabled" type="boolean" value="false"/>
                     <Property name="name" type="java.lang.String" value="jPanelRezonParam" noResource="true"/>
                   </Properties>
                   <AccessibilityProperties>
@@ -1483,25 +1883,116 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="205" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelRezonStepCx" alignment="0" pref="212" max="32767" attributes="0"/>
+                                  <Component id="jLabelRezonStepLx" alignment="0" pref="212" max="32767" attributes="0"/>
+                                  <Component id="jSeparator6" alignment="0" pref="212" max="32767" attributes="0"/>
+                                  <Component id="jLabelRezonVarCx" alignment="0" pref="212" max="32767" attributes="0"/>
+                                  <Component id="jLabelRezonVarLx" alignment="0" pref="212" max="32767" attributes="0"/>
+                                  <Component id="jLabelRezonVarFR" alignment="0" pref="212" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="211" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelRezonStepLx" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelRezonStepCx" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelRezonVarFR" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="jLabelRezonVarLx" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelRezonVarCx" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonStepCx">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonStepCx" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonStepCx.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonStepCx.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonStepCx" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonStepLx">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonStepLx" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonStepLx.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonStepLx.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonStepLx" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSeparator" name="jSeparator6">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator6" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonVarLx">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonVarLx" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonVarLx.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonVarLx.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonVarLx" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonVarFR">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonVarFR" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonVarFR.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonVarFR.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonVarFR" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelRezonVarCx">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+                          <FontInfo relative="true">
+                            <Font bold="true" component="jLabelRezonVarCx" property="font" relativeSize="true" size="1"/>
+                          </FontInfo>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="jLabelRezonVarCx.foreground"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabelRezonVarCx.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabelRezonVarCx" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel19">
                   <Properties>
                     <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
                       <FontInfo relative="true">
-                        <Font bold="true" component="jLabel19" property="font" relativeSize="true" size="0"/>
+                        <Font bold="false" component="jLabel19" property="font" relativeSize="true" size="0"/>
                       </FontInfo>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" resourceKey="jLabel19.foreground"/>
-                    <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" resourceKey="jLabel19.text"/>
                     <Property name="name" type="java.lang.String" value="jLabel19" noResource="true"/>
                   </Properties>
@@ -1623,6 +2114,6 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-49,0,0,2,-100"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-26,0,0,3,7"/>
   </AuxValues>
 </Form>
