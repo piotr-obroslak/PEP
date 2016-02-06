@@ -126,6 +126,8 @@ public class PEPAboutBox extends javax.swing.JDialog {
             .addComponent(imageLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 233, Short.MAX_VALUE)
         );
 
+        appVersionLabel.getAccessibleContext().setAccessibleName(resourceMap.getString("appVersionLabel.AccessibleContext.accessibleName")); // NOI18N
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
     
