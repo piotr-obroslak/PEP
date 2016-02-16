@@ -88,6 +88,9 @@ public class Resonance {
         return Lx;
     }
     public void setLx(double val) {
+        if (!Var_Lx)
+            return;
+        
         Lx = Norm.EnsureInRange(val, minLx, maxLx);
     }
     private void chLx(double multiplier) {
@@ -108,6 +111,9 @@ public class Resonance {
         return Cx;
     }
     public void setCx(double val) {
+        if (!Var_Cx)
+            return;
+        
         Cx = Norm.EnsureInRange(val, minCx, maxCx);
     }
     private void chCx(double multiplier) {
@@ -128,6 +134,9 @@ public class Resonance {
         return fr;
     }
     public void setFR(double val) {
+        if (!Var_fr)
+            return;
+
         fr = Norm.EnsureInRange(val, minFR, maxFR);
     }
     
@@ -199,12 +208,22 @@ public class Resonance {
     public double getStepLx() {
         return stepLx;
     }
+    public void chStepLx() {
+        stepLx *= 10;
+        if (stepLx > maxStepLx)
+            stepLx = minStepLx;
+    }
 
     /**
      * @return step Cx
      */
     public double getStepCx() {
         return stepCx;
+    }
+    public void chStepCx() {
+        stepCx *= 10;
+        if (stepCx > maxStepCx)
+            stepCx = minStepCx;
     }
     
     /**
@@ -213,6 +232,9 @@ public class Resonance {
     public boolean isVarFR() {
         return Var_fr;
     }
+    public void toggleVarFR() {
+        Var_fr = !Var_fr;
+    }
     
     /**
      * @return checks if Lx is variable
@@ -220,12 +242,18 @@ public class Resonance {
     public boolean isVarLx() {
         return Var_Lx;
     }
+    public void toggleVarLx() {
+        Var_Lx = !Var_Lx;
+    }
     
     /**
      * @return checks if Cx is variable
      */
     public boolean isVarCx() {
         return Var_Cx;
+    }
+    public void toggleVarCx() {
+        Var_Cx = !Var_Cx;
     }
 
     
@@ -357,11 +385,15 @@ public class Resonance {
     
     private static final double
             minCx = 1e-15,
-            maxCx = 1;
+            maxCx = 1,
+            minStepCx = .1e-12,
+            maxStepCx = 1e-1;
     
     private static final double
             minLx = .1e-9,
-            maxLx = 1;
+            maxLx = 1,
+            minStepLx = .1e-9,
+            maxStepLx = 1e-1;
     
     private static final double
             minRs = 1e-3,

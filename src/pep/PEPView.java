@@ -149,9 +149,9 @@ public class PEPView extends FrameView {
         mainPanel = new javax.swing.JPanel();
         calculatorsTPane = new javax.swing.JTabbedPane();
         cewkapPanel = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        jLabelInductorTitle = new javax.swing.JLabel();
+        jLabelInductorKnowledgeBase = new javax.swing.JLabel();
+        jLabelInductorGuide = new javax.swing.JLabel();
         jPanelCewkaWe = new javax.swing.JPanel();
         jSpinnerCewkaX = new javax.swing.JSpinner();
         jSpinnerCewkaD = new javax.swing.JSpinner();
@@ -180,11 +180,11 @@ public class PEPView extends FrameView {
         jLabelCewkaFxJdn = new javax.swing.JLabel();
         jTextCewkaMi = new javax.swing.JTextField();
         jSeparator2 = new javax.swing.JSeparator();
-        jLabel12 = new javax.swing.JLabel();
+        jLabelInductorHelp = new javax.swing.JLabel();
         lpnPanel = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
+        jLabelLPNTitle = new javax.swing.JLabel();
+        jLabelLPNKnowledgeBase = new javax.swing.JLabel();
+        jLabelLPNGuide = new javax.swing.JLabel();
         jPanelLPNWe = new javax.swing.JPanel();
         jLabelLPNW = new javax.swing.JLabel();
         jLabelLPNH = new javax.swing.JLabel();
@@ -206,11 +206,11 @@ public class PEPView extends FrameView {
         jTextLPNT = new javax.swing.JTextField();
         jSpinnerLPNEps = new javax.swing.JSpinner();
         jLabelLPNTJdn = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
+        jLabelLPNHelp = new javax.swing.JLabel();
         rezPanel = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
+        jLabelRezonTitle = new javax.swing.JLabel();
+        jLabelRezonKnowledgeBase = new javax.swing.JLabel();
+        jLabelRezonGuide = new javax.swing.JLabel();
         jPanelRezonWe = new javax.swing.JPanel();
         jLabelRezonLx = new javax.swing.JLabel();
         jSpinnerRezonLx = new javax.swing.JSpinner();
@@ -240,7 +240,7 @@ public class PEPView extends FrameView {
         jLabelRezonVarLx = new javax.swing.JLabel();
         jLabelRezonVarFR = new javax.swing.JLabel();
         jLabelRezonVarCx = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
+        jLabelRezonHelp = new javax.swing.JLabel();
         menuBar = new javax.swing.JMenuBar();
         javax.swing.JMenu fileMenu = new javax.swing.JMenu();
         jMenuItemOtworz = new javax.swing.JMenuItem();
@@ -257,21 +257,22 @@ public class PEPView extends FrameView {
 
         cewkapPanel.setName("cewkapPanel"); // NOI18N
 
-        jLabel1.setFont(jLabel1.getFont().deriveFont(jLabel1.getFont().getStyle() | java.awt.Font.BOLD, jLabel1.getFont().getSize()+3));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelInductorTitle.setFont(jLabelInductorTitle.getFont().deriveFont(jLabelInductorTitle.getFont().getStyle() | java.awt.Font.BOLD, jLabelInductorTitle.getFont().getSize()+3));
+        jLabelInductorTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(pep.PEPApp.class).getContext().getResourceMap(PEPView.class);
-        jLabel1.setText(resourceMap.getString("jLabel1.text")); // NOI18N
-        jLabel1.setName("jLabel1"); // NOI18N
+        jLabelInductorTitle.setText(resourceMap.getString("jLabelInductorTitle.text")); // NOI18N
+        jLabelInductorTitle.setName("jLabelInductorTitle"); // NOI18N
 
-        jLabel7.setFont(jLabel7.getFont().deriveFont(jLabel7.getFont().getStyle() & ~java.awt.Font.BOLD, jLabel7.getFont().getSize()+1));
-        jLabel7.setForeground(resourceMap.getColor("jLabel7.foreground")); // NOI18N
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText(resourceMap.getString("jLabel7.text")); // NOI18N
-        jLabel7.setName("jLabel7"); // NOI18N
+        jLabelInductorKnowledgeBase.setFont(jLabelInductorKnowledgeBase.getFont().deriveFont(jLabelInductorKnowledgeBase.getFont().getStyle() & ~java.awt.Font.BOLD, jLabelInductorKnowledgeBase.getFont().getSize()+1));
+        jLabelInductorKnowledgeBase.setForeground(resourceMap.getColor("jLabelInductorKnowledgeBase.foreground")); // NOI18N
+        jLabelInductorKnowledgeBase.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelInductorKnowledgeBase.setText(resourceMap.getString("jLabelInductorKnowledgeBase.text")); // NOI18N
+        jLabelInductorKnowledgeBase.setName("jLabelInductorKnowledgeBase"); // NOI18N
 
-        jLabel8.setFont(jLabel8.getFont().deriveFont(jLabel8.getFont().getStyle() & ~java.awt.Font.BOLD));
-        jLabel8.setText(resourceMap.getString("jLabel8.text")); // NOI18N
-        jLabel8.setName("jLabel8"); // NOI18N
+        jLabelInductorGuide.setFont(jLabelInductorGuide.getFont().deriveFont(jLabelInductorGuide.getFont().getStyle() & ~java.awt.Font.BOLD));
+        jLabelInductorGuide.setForeground(resourceMap.getColor("jLabelInductorGuide.foreground")); // NOI18N
+        jLabelInductorGuide.setText(resourceMap.getString("jLabelInductorGuide.text")); // NOI18N
+        jLabelInductorGuide.setName("jLabelInductorGuide"); // NOI18N
 
         jPanelCewkaWe.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), resourceMap.getString("jPanelCewkaWe.border.title"), 0, 0, resourceMap.getFont("jPanelCewkaWe.border.titleFont"), resourceMap.getColor("jPanelCewkaWe.border.titleColor"))); // NOI18N
         jPanelCewkaWe.setForeground(resourceMap.getColor("jPanelCewkaWe.foreground")); // NOI18N
@@ -713,45 +714,46 @@ public class PEPView extends FrameView {
                 .addGap(95, 95, 95))
         );
 
-        jLabel12.setFont(jLabel12.getFont().deriveFont(jLabel12.getFont().getStyle() & ~java.awt.Font.BOLD));
-        jLabel12.setText(resourceMap.getString("jLabel12.text")); // NOI18N
-        jLabel12.setName("jLabel12"); // NOI18N
+        jLabelInductorHelp.setFont(jLabelInductorHelp.getFont().deriveFont(jLabelInductorHelp.getFont().getStyle() & ~java.awt.Font.BOLD));
+        jLabelInductorHelp.setForeground(resourceMap.getColor("jLabelInductorHelp.foreground")); // NOI18N
+        jLabelInductorHelp.setText(resourceMap.getString("jLabelInductorHelp.text")); // NOI18N
+        jLabelInductorHelp.setName("jLabelInductorHelp"); // NOI18N
 
         javax.swing.GroupLayout cewkapPanelLayout = new javax.swing.GroupLayout(cewkapPanel);
         cewkapPanel.setLayout(cewkapPanelLayout);
         cewkapPanelLayout.setHorizontalGroup(
             cewkapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cewkapPanelLayout.createSequentialGroup()
+            .addGroup(cewkapPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(cewkapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, cewkapPanelLayout.createSequentialGroup()
+                .addGroup(cewkapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabelInductorTitle, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addComponent(jLabelInductorGuide, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addComponent(jLabelInductorKnowledgeBase, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addGroup(cewkapPanelLayout.createSequentialGroup()
                         .addComponent(jPanelCewkaWe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanelCewkaWy, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanelCewkaParam, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
+                    .addComponent(jLabelInductorHelp, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
                 .addContainerGap())
         );
         cewkapPanelLayout.setVerticalGroup(
             cewkapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(cewkapPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelInductorTitle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelInductorKnowledgeBase, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelInductorGuide, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(cewkapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanelCewkaParam, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 241, Short.MAX_VALUE)
                     .addComponent(jPanelCewkaWe, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanelCewkaWy, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelInductorHelp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31))
         );
 
@@ -761,20 +763,21 @@ public class PEPView extends FrameView {
 
         lpnPanel.setName("lpnPanel"); // NOI18N
 
-        jLabel2.setFont(jLabel2.getFont().deriveFont(jLabel2.getFont().getStyle() | java.awt.Font.BOLD, jLabel2.getFont().getSize()+3));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText(resourceMap.getString("jLabel2.text")); // NOI18N
-        jLabel2.setName("jLabel2"); // NOI18N
+        jLabelLPNTitle.setFont(jLabelLPNTitle.getFont().deriveFont(jLabelLPNTitle.getFont().getStyle() | java.awt.Font.BOLD, jLabelLPNTitle.getFont().getSize()+3));
+        jLabelLPNTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelLPNTitle.setText(resourceMap.getString("jLabelLPNTitle.text")); // NOI18N
+        jLabelLPNTitle.setName("jLabelLPNTitle"); // NOI18N
 
-        jLabel10.setFont(jLabel10.getFont().deriveFont(jLabel10.getFont().getStyle() & ~java.awt.Font.BOLD, jLabel10.getFont().getSize()+1));
-        jLabel10.setForeground(resourceMap.getColor("jLabel10.foreground")); // NOI18N
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText(resourceMap.getString("jLabel10.text")); // NOI18N
-        jLabel10.setName("jLabel10"); // NOI18N
+        jLabelLPNKnowledgeBase.setFont(jLabelLPNKnowledgeBase.getFont().deriveFont(jLabelLPNKnowledgeBase.getFont().getStyle() & ~java.awt.Font.BOLD, jLabelLPNKnowledgeBase.getFont().getSize()+1));
+        jLabelLPNKnowledgeBase.setForeground(resourceMap.getColor("jLabelLPNKnowledgeBase.foreground")); // NOI18N
+        jLabelLPNKnowledgeBase.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelLPNKnowledgeBase.setText(resourceMap.getString("jLabelLPNKnowledgeBase.text")); // NOI18N
+        jLabelLPNKnowledgeBase.setName("jLabelLPNKnowledgeBase"); // NOI18N
 
-        jLabel13.setFont(jLabel13.getFont().deriveFont(jLabel13.getFont().getStyle() & ~java.awt.Font.BOLD));
-        jLabel13.setText(resourceMap.getString("jLabel13.text")); // NOI18N
-        jLabel13.setName("jLabel13"); // NOI18N
+        jLabelLPNGuide.setFont(jLabelLPNGuide.getFont().deriveFont(jLabelLPNGuide.getFont().getStyle() & ~java.awt.Font.BOLD));
+        jLabelLPNGuide.setForeground(resourceMap.getColor("jLabelLPNGuide.foreground")); // NOI18N
+        jLabelLPNGuide.setText(resourceMap.getString("jLabelLPNGuide.text")); // NOI18N
+        jLabelLPNGuide.setName("jLabelLPNGuide"); // NOI18N
 
         jPanelLPNWe.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), resourceMap.getString("jPanelLPNWe.border.title"), 0, 0, resourceMap.getFont("jPanelLPNWe.border.titleFont"), resourceMap.getColor("jPanelLPNWe.border.titleColor"))); // NOI18N
         jPanelLPNWe.setFont(jPanelLPNWe.getFont().deriveFont(jPanelLPNWe.getFont().getStyle() | java.awt.Font.BOLD, jPanelLPNWe.getFont().getSize()+1));
@@ -922,17 +925,17 @@ public class PEPView extends FrameView {
                 .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jSeparator3, javax.swing.GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE)
                     .addGroup(jPanelLPNWeLayout.createSequentialGroup()
-                        .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelLPNWeLayout.createSequentialGroup()
-                                .addComponent(jLabelLPNH, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jSpinnerLPNH, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelLPNWeLayout.createSequentialGroup()
                                 .addComponent(jLabelLPNW, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(4, 4, 4)
-                                .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jLabelLPNW_mls, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jSpinnerLPNW, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 114, Short.MAX_VALUE))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jSpinnerLPNW, javax.swing.GroupLayout.DEFAULT_SIZE, 110, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelLPNWeLayout.createSequentialGroup()
+                                .addComponent(jLabelLPNH, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabelLPNW_mls, javax.swing.GroupLayout.DEFAULT_SIZE, 108, Short.MAX_VALUE)
+                                    .addComponent(jSpinnerLPNH, javax.swing.GroupLayout.DEFAULT_SIZE, 108, Short.MAX_VALUE))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabelLPNHJdn, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
@@ -953,7 +956,7 @@ public class PEPView extends FrameView {
                     .addComponent(jLabelLPNWJdn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabelLPNW_mls, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabelLPNW_mls, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabelLPNW_mlsJdn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanelLPNWeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -1109,47 +1112,47 @@ public class PEPView extends FrameView {
         jTextLPNT.getAccessibleContext().setAccessibleName(resourceMap.getString("jTextLPNT.AccessibleContext.accessibleName")); // NOI18N
         jSpinnerLPNEps.getAccessibleContext().setAccessibleName(resourceMap.getString("jSpinnerLPNEps.AccessibleContext.accessibleName")); // NOI18N
 
-        jLabel18.setFont(jLabel18.getFont().deriveFont(jLabel18.getFont().getStyle() & ~java.awt.Font.BOLD));
-        jLabel18.setForeground(resourceMap.getColor("jLabel18.foreground")); // NOI18N
-        jLabel18.setText(resourceMap.getString("jLabel18.text")); // NOI18N
-        jLabel18.setName("jLabel18"); // NOI18N
+        jLabelLPNHelp.setFont(jLabelLPNHelp.getFont().deriveFont(jLabelLPNHelp.getFont().getStyle() & ~java.awt.Font.BOLD));
+        jLabelLPNHelp.setForeground(resourceMap.getColor("jLabelLPNHelp.foreground")); // NOI18N
+        jLabelLPNHelp.setText(resourceMap.getString("jLabelLPNHelp.text")); // NOI18N
+        jLabelLPNHelp.setName("jLabelLPNHelp"); // NOI18N
 
         javax.swing.GroupLayout lpnPanelLayout = new javax.swing.GroupLayout(lpnPanel);
         lpnPanel.setLayout(lpnPanelLayout);
         lpnPanelLayout.setHorizontalGroup(
             lpnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, lpnPanelLayout.createSequentialGroup()
+            .addGroup(lpnPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(lpnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, lpnPanelLayout.createSequentialGroup()
+                .addGroup(lpnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabelLPNTitle, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addGroup(lpnPanelLayout.createSequentialGroup()
                         .addComponent(jPanelLPNWe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanelLPNWy, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanelLPNParam, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
+                    .addComponent(jLabelLPNGuide, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addComponent(jLabelLPNKnowledgeBase, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addComponent(jLabelLPNHelp, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
                 .addContainerGap())
         );
         lpnPanelLayout.setVerticalGroup(
             lpnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(lpnPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelLPNTitle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelLPNKnowledgeBase, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelLPNGuide, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(56, 56, 56)
                 .addGroup(lpnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanelLPNParam, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanelLPNWe, 0, 233, Short.MAX_VALUE)
                     .addComponent(jPanelLPNWy, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
-                .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(46, 46, 46))
+                .addGap(19, 19, 19)
+                .addComponent(jLabelLPNHelp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jPanelLPNWe.getAccessibleContext().setAccessibleName(resourceMap.getString("jPanel1.AccessibleContext.accessibleName")); // NOI18N
@@ -1160,20 +1163,21 @@ public class PEPView extends FrameView {
 
         rezPanel.setName("rezPanel"); // NOI18N
 
-        jLabel3.setFont(jLabel3.getFont().deriveFont(jLabel3.getFont().getStyle() | java.awt.Font.BOLD, jLabel3.getFont().getSize()+3));
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText(resourceMap.getString("jLabel3.text")); // NOI18N
-        jLabel3.setName("jLabel3"); // NOI18N
+        jLabelRezonTitle.setFont(jLabelRezonTitle.getFont().deriveFont(jLabelRezonTitle.getFont().getStyle() | java.awt.Font.BOLD, jLabelRezonTitle.getFont().getSize()+3));
+        jLabelRezonTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelRezonTitle.setText(resourceMap.getString("jLabelRezonTitle.text")); // NOI18N
+        jLabelRezonTitle.setName("jLabelRezonTitle"); // NOI18N
 
-        jLabel11.setFont(jLabel11.getFont().deriveFont(jLabel11.getFont().getStyle() & ~java.awt.Font.BOLD, jLabel11.getFont().getSize()+1));
-        jLabel11.setForeground(resourceMap.getColor("jLabel11.foreground")); // NOI18N
-        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText(resourceMap.getString("jLabel11.text")); // NOI18N
-        jLabel11.setName("jLabel11"); // NOI18N
+        jLabelRezonKnowledgeBase.setFont(jLabelRezonKnowledgeBase.getFont().deriveFont(jLabelRezonKnowledgeBase.getFont().getStyle() & ~java.awt.Font.BOLD, jLabelRezonKnowledgeBase.getFont().getSize()+1));
+        jLabelRezonKnowledgeBase.setForeground(resourceMap.getColor("jLabelRezonKnowledgeBase.foreground")); // NOI18N
+        jLabelRezonKnowledgeBase.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelRezonKnowledgeBase.setText(resourceMap.getString("jLabelRezonKnowledgeBase.text")); // NOI18N
+        jLabelRezonKnowledgeBase.setName("jLabelRezonKnowledgeBase"); // NOI18N
 
-        jLabel16.setFont(jLabel16.getFont().deriveFont(jLabel16.getFont().getStyle() & ~java.awt.Font.BOLD));
-        jLabel16.setText(resourceMap.getString("jLabel16.text")); // NOI18N
-        jLabel16.setName("jLabel16"); // NOI18N
+        jLabelRezonGuide.setFont(jLabelRezonGuide.getFont().deriveFont(jLabelRezonGuide.getFont().getStyle() & ~java.awt.Font.BOLD));
+        jLabelRezonGuide.setForeground(resourceMap.getColor("jLabelRezonGuide.foreground")); // NOI18N
+        jLabelRezonGuide.setText(resourceMap.getString("jLabelRezonGuide.text")); // NOI18N
+        jLabelRezonGuide.setName("jLabelRezonGuide"); // NOI18N
 
         jPanelRezonWe.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), resourceMap.getString("jPanelRezonWe.border.title"), 0, 0, resourceMap.getFont("jPanelRezonWe.border.titleFont"), resourceMap.getColor("jPanelRezonWe.border.titleColor"))); // NOI18N
         jPanelRezonWe.setName("jPanelRezonWe"); // NOI18N
@@ -1549,11 +1553,25 @@ public class PEPView extends FrameView {
         jLabelRezonStepCx.setForeground(resourceMap.getColor("jLabelRezonStepCx.foreground")); // NOI18N
         jLabelRezonStepCx.setText(resourceMap.getString("jLabelRezonStepCx.text")); // NOI18N
         jLabelRezonStepCx.setName("jLabelRezonStepCx"); // NOI18N
+        jLabelRezonStepCx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift 2"), "shift 2 pressed");
+        jLabelRezonStepCx.getActionMap().put("shift 2 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                rezonCalc.chStepCx();
+                PostReflectRezonCalc();
+            }
+        });
 
         jLabelRezonStepLx.setFont(jLabelRezonStepLx.getFont().deriveFont(jLabelRezonStepLx.getFont().getStyle() | java.awt.Font.BOLD, jLabelRezonStepLx.getFont().getSize()+1));
         jLabelRezonStepLx.setForeground(resourceMap.getColor("jLabelRezonStepLx.foreground")); // NOI18N
         jLabelRezonStepLx.setText(resourceMap.getString("jLabelRezonStepLx.text")); // NOI18N
         jLabelRezonStepLx.setName("jLabelRezonStepLx"); // NOI18N
+        jLabelRezonStepLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift 1"), "shift 1 pressed");
+        jLabelRezonStepLx.getActionMap().put("shift 1 pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                rezonCalc.chStepLx();
+                PostReflectRezonCalc();
+            }
+        });
 
         jSeparator6.setName("jSeparator6"); // NOI18N
 
@@ -1561,16 +1579,37 @@ public class PEPView extends FrameView {
         jLabelRezonVarLx.setForeground(resourceMap.getColor("jLabelRezonVarLx.foreground")); // NOI18N
         jLabelRezonVarLx.setText(resourceMap.getString("jLabelRezonVarLx.text")); // NOI18N
         jLabelRezonVarLx.setName("jLabelRezonVarLx"); // NOI18N
+        jLabelRezonVarLx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift L"), "shift L pressed");
+        jLabelRezonVarLx.getActionMap().put("shift L pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                rezonCalc.toggleVarLx();
+                PostReflectRezonCalc();
+            }
+        });
 
         jLabelRezonVarFR.setFont(jLabelRezonVarFR.getFont().deriveFont(jLabelRezonVarFR.getFont().getStyle() | java.awt.Font.BOLD, jLabelRezonVarFR.getFont().getSize()+1));
         jLabelRezonVarFR.setForeground(resourceMap.getColor("jLabelRezonVarFR.foreground")); // NOI18N
         jLabelRezonVarFR.setText(resourceMap.getString("jLabelRezonVarFR.text")); // NOI18N
         jLabelRezonVarFR.setName("jLabelRezonVarFR"); // NOI18N
+        jLabelRezonVarFR.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift F"), "shift F pressed");
+        jLabelRezonVarFR.getActionMap().put("shift F pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                rezonCalc.toggleVarFR();
+                PostReflectRezonCalc();
+            }
+        });
 
         jLabelRezonVarCx.setFont(jLabelRezonVarCx.getFont().deriveFont(jLabelRezonVarCx.getFont().getStyle() | java.awt.Font.BOLD, jLabelRezonVarCx.getFont().getSize()+1));
         jLabelRezonVarCx.setForeground(resourceMap.getColor("jLabelRezonVarCx.foreground")); // NOI18N
         jLabelRezonVarCx.setText(resourceMap.getString("jLabelRezonVarCx.text")); // NOI18N
         jLabelRezonVarCx.setName("jLabelRezonVarCx"); // NOI18N
+        jLabelRezonVarCx.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(javax.swing.KeyStroke.getKeyStroke("shift C"), "shift C pressed");
+        jLabelRezonVarCx.getActionMap().put("shift C pressed", new javax.swing.AbstractAction() {
+            public void actionPerformed(ActionEvent evt) {
+                rezonCalc.toggleVarCx();
+                PostReflectRezonCalc();
+            }
+        });
 
         javax.swing.GroupLayout jPanelRezonParamLayout = new javax.swing.GroupLayout(jPanelRezonParam);
         jPanelRezonParam.setLayout(jPanelRezonParamLayout);
@@ -1605,55 +1644,47 @@ public class PEPView extends FrameView {
                 .addGap(36, 36, 36))
         );
 
-        jLabel19.setFont(jLabel19.getFont().deriveFont(jLabel19.getFont().getStyle() & ~java.awt.Font.BOLD));
-        jLabel19.setForeground(resourceMap.getColor("jLabel19.foreground")); // NOI18N
-        jLabel19.setText(resourceMap.getString("jLabel19.text")); // NOI18N
-        jLabel19.setName("jLabel19"); // NOI18N
+        jLabelRezonHelp.setFont(jLabelRezonHelp.getFont().deriveFont(jLabelRezonHelp.getFont().getStyle() & ~java.awt.Font.BOLD));
+        jLabelRezonHelp.setForeground(resourceMap.getColor("jLabelRezonHelp.foreground")); // NOI18N
+        jLabelRezonHelp.setText(resourceMap.getString("jLabelRezonHelp.text")); // NOI18N
+        jLabelRezonHelp.setName("jLabelRezonHelp"); // NOI18N
 
         javax.swing.GroupLayout rezPanelLayout = new javax.swing.GroupLayout(rezPanel);
         rezPanel.setLayout(rezPanelLayout);
         rezPanelLayout.setHorizontalGroup(
             rezPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rezPanelLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(rezPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabelRezonGuide, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addComponent(jLabelRezonKnowledgeBase, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
                     .addGroup(rezPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
-                    .addGroup(rezPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
-                    .addGroup(rezPanelLayout.createSequentialGroup()
-                        .addContainerGap()
                         .addComponent(jPanelRezonWe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanelRezonWy, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanelRezonParam, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rezPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
-                    .addGroup(rezPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)))
+                    .addComponent(jLabelRezonTitle, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
+                    .addComponent(jLabelRezonHelp, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE))
                 .addContainerGap())
         );
         rezPanelLayout.setVerticalGroup(
             rezPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rezPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelRezonTitle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelRezonKnowledgeBase, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabelRezonGuide, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                 .addGroup(rezPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanelRezonWe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanelRezonParam, javax.swing.GroupLayout.DEFAULT_SIZE, 234, Short.MAX_VALUE)
                     .addComponent(jPanelRezonWy, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(16, 16, 16)
-                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(33, 33, 33))
+                .addGap(37, 37, 37)
+                .addComponent(jLabelRezonHelp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jPanelRezonWe.getAccessibleContext().setAccessibleName(resourceMap.getString("jPanel1.AccessibleContext.accessibleName")); // NOI18N
@@ -2205,7 +2236,7 @@ private void jSpinnerCewkaXStateChanged(javax.swing.event.ChangeEvent evt) {//GE
         varLx.append(rezonCalc.isVarLx() ? "zmienne" : "stałe"); varLx.append(" (shift+L)</b>");
         jLabelRezonVarLx.setText(varLx.toString());
         
-        StringBuilder varCx = new StringBuilder("<html><b>Lx - ");
+        StringBuilder varCx = new StringBuilder("<html><b>Cx - ");
         varCx.append(rezonCalc.isVarCx() ? "zmienne" : "stałe"); varCx.append(" (shift+C)</b>");
         jLabelRezonVarCx.setText(varCx.toString());
 }
@@ -2213,18 +2244,6 @@ private void jSpinnerCewkaXStateChanged(javax.swing.event.ChangeEvent evt) {//GE
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTabbedPane calculatorsTPane;
     private javax.swing.JPanel cewkapPanel;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabelCewkaD;
     private javax.swing.JLabel jLabelCewkaDDivX;
     private javax.swing.JLabel jLabelCewkaDJdn;
@@ -2242,12 +2261,20 @@ private void jSpinnerCewkaXStateChanged(javax.swing.event.ChangeEvent evt) {//GE
     private javax.swing.JLabel jLabelCewkaWzor;
     private javax.swing.JLabel jLabelCewkaX;
     private javax.swing.JLabel jLabelCewkaXJdn;
+    private javax.swing.JLabel jLabelInductorGuide;
+    private javax.swing.JLabel jLabelInductorHelp;
+    private javax.swing.JLabel jLabelInductorKnowledgeBase;
+    private javax.swing.JLabel jLabelInductorTitle;
     private javax.swing.JLabel jLabelLPNEps;
     private javax.swing.JLabel jLabelLPNEps_ef;
+    private javax.swing.JLabel jLabelLPNGuide;
     private javax.swing.JLabel jLabelLPNH;
     private javax.swing.JLabel jLabelLPNHJdn;
+    private javax.swing.JLabel jLabelLPNHelp;
+    private javax.swing.JLabel jLabelLPNKnowledgeBase;
     private javax.swing.JLabel jLabelLPNT;
     private javax.swing.JLabel jLabelLPNTJdn;
+    private javax.swing.JLabel jLabelLPNTitle;
     private javax.swing.JLabel jLabelLPNW;
     private javax.swing.JLabel jLabelLPNWDivH;
     private javax.swing.JLabel jLabelLPNWJdn;
@@ -2259,6 +2286,9 @@ private void jSpinnerCewkaXStateChanged(javax.swing.event.ChangeEvent evt) {//GE
     private javax.swing.JLabel jLabelRezonCxJdn;
     private javax.swing.JLabel jLabelRezonFRUnit;
     private javax.swing.JLabel jLabelRezonFR_;
+    private javax.swing.JLabel jLabelRezonGuide;
+    private javax.swing.JLabel jLabelRezonHelp;
+    private javax.swing.JLabel jLabelRezonKnowledgeBase;
     private javax.swing.JLabel jLabelRezonLx;
     private javax.swing.JLabel jLabelRezonLxJdn;
     private javax.swing.JLabel jLabelRezonQr;
@@ -2270,6 +2300,7 @@ private void jSpinnerCewkaXStateChanged(javax.swing.event.ChangeEvent evt) {//GE
     private javax.swing.JLabel jLabelRezonRsUnit;
     private javax.swing.JLabel jLabelRezonStepCx;
     private javax.swing.JLabel jLabelRezonStepLx;
+    private javax.swing.JLabel jLabelRezonTitle;
     private javax.swing.JLabel jLabelRezonVarCx;
     private javax.swing.JLabel jLabelRezonVarFR;
     private javax.swing.JLabel jLabelRezonVarLx;
