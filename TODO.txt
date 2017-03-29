@@ -1,3 +1,1 @@
-- obsluga klawisza F10
-- dodac sensowne nazwy do etykiet na zakladkach "obwody rezonansowe" oraz "linia paskowa niesymetryczna"
-- wartosc rezystancji w zakladce cewka powietrzna otrzymuje dziwne wartosci w wyniku nacisksania skrotow klawiszowyc
+- wartosc rezystancji w zakladce cewka powietrzna otrzymuje dziwne wartosci w wyniku nacisksania skrotow klawiszowych
